@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "Sluneční Dvůr — poctivá kuchyňa v Milčevsi",
+    "description": "Na poriadny obed aj večer s priateľmi. Reštaurácia Sluneční Dvůr, Milčeves 55 pri Žatci. Jedálny lístok, fotografie a rezervácie.",
+    "menuTitle": "Jedálny lístok | Sluneční Dvůr",
+    "galleryTitle": "Fotografie z dvora | Sluneční Dvůr"
+  },
+  "nav": {
+    "home": "Úvod",
+    "about": "O nás",
+    "menu": "Jedálny lístok",
+    "gallery": "Galéria",
+    "contact": "Kontakt",
+    "reserve": "Rezervovať stôl",
+    "language": "Jazyk",
+    "open": "Otvoriť navigáciu",
+    "close": "Zavrieť navigáciu",
+    "skip": "Prejsť na obsah",
+    "chooseLanguage": "U nás ste vítaní"
+  },
+  "hero": {
+    "eyebrow": "MILČEVES PRI ŽATCI · REŠTAURÁCIA A DVOR",
+    "line1": "Poctivá kuchyňa.",
+    "line2": "Ako doma.",
+    "text": "Na poriadny obed. Na chvíľu spolu.\nNa miesto, kam sa radi vraciate.",
+    "menu": "Pozrieť si jedálny lístok",
+    "reserve": "Príďte si posedieť",
+    "scroll": "Vitajte u nás",
+    "location": "Kúsok od Žatca, blízko k pohode."
+  },
+  "common": {
+    "closed": "Zatvorené",
+    "call": "Zavolať",
+    "allPhotos": "Všetky fotografie",
+    "fullMenu": "Celý jedálny lístok",
+    "back": "Späť na úvod",
+    "next": "Ďalšia fotografia",
+    "previous": "Predchádzajúca fotografia",
+    "close": "Zavrieť",
+    "photo": "Fotografia",
+    "of": "z",
+    "copyright": "Všetky práva vyhradené."
+  },
+  "story": {
+    "eyebrow": "PRI JEDNOM STOLE",
+    "title": "Jedlo, ktoré nepotrebuje zbytočné reči.",
+    "text": "Poctivá domáca kuchyňa, plný tanier a čas na seba. Presne tak to máme v reštaurácii Sluneční Dvůr radi.",
+    "text2": "Zastavte sa v Milčevsi. Na obed, na niečo dobré alebo len tak posedieť s tými, s ktorými vám je dobre.",
+    "caption": "Z našej kuchyne priamo na stôl.",
+    "signature": "Tešíme sa na vás vo dvore."
+  },
+  "menu": {
+    "eyebrow": "ČO VÁM PRINESIEME NA STÔL",
+    "title": "Dobré jedlo.\nPoctivá porcia.",
+    "intro": "Z našej kuchyne si vyberie každý. Od horúcej polievky cez rezne až po česko-slovenské špeciality.",
+    "pageTitle": "Jedálny lístok",
+    "pageIntro": "Vyberte si, na čo máte chuť. My sa už postaráme o zvyšok.",
+    "allergens": "Alergény",
+    "allergenInfo": "Čísla alergénov preberáme z jedálneho lístka. Ak nie sú uvedené, neznamená to, že je jedlo bez alergénov. S výberom vám rada pomôže obsluha.",
+    "source": "Nahliadnuť do pôvodného lístka",
+    "sourcePage": "Strana",
+    "priceNote": "Ceny sú uvedené v Kč. Aktuálnu dostupnosť jedál vám potvrdí obsluha.",
+    "daily": "Denná ponuka",
+    "allergenLegend": [
+      "Obilniny obsahujúce lepok",
+      "Kôrovce",
+      "Vajcia",
+      "Ryby",
+      "Arašidy",
+      "Sója",
+      "Mlieko",
+      "Škrupinové plody",
+      "Zeler",
+      "Horčica",
+      "Sezam",
+      "Oxid siričitý a siričitany",
+      "Vlčí bôb",
+      "Mäkkýše"
+    ]
+  },
+  "atmosphere": {
+    "eyebrow": "CHVÍLE VO DVORE",
+    "title": "U nás sa\nneponáhľa.",
+    "text": "Drevené stoly, svetlo na dvore a niečo dobré pred sebou. Niekedy stačí tak málo.",
+    "caption": "Sluneční Dvůr, Milčeves",
+    "play": "Malá chvíľa z dvora",
+    "videoLabel": "Večerný pohľad na dvor",
+    "videoText": "Terasa za súmraku. 12 sekúnd z nášho dvora.",
+    "pause": "Pozastaviť video"
+  },
+  "gallery": {
+    "eyebrow": "TAKTO TO U NÁS VYZERÁ",
+    "title": "Zo stola.\nZ dvora.",
+    "intro": "Niečo z kuchyne, niečo z nášho každodenného života. A hlavne z miesta, kde vás radi uvidíme.",
+    "pageTitle": "Pár pohľadov k nám",
+    "all": "Všetko",
+    "food": "Jedlo",
+    "restaurant": "Reštaurácia",
+    "courtyard": "Dvor a záhradka",
+    "kitchen": "Z kuchyne",
+    "open": "Zväčšiť fotografiu",
+    "more": "Pozrieť si celú galériu"
+  },
+  "reservation": {
+    "eyebrow": "MIESTO PRI STOLE SA NÁJDE",
+    "title": "Máte chuť?",
+    "subtitle": "Stôl vám radi pripravíme.",
+    "call": "Zavolať a rezervovať",
+    "facebook": "Napísať na Facebook"
+  },
+  "contact": {
+    "eyebrow": "CESTA K NÁM",
+    "title": "Nájdete nás\nv Milčevsi.",
+    "address": "Naša adresa",
+    "hours": "Kedy máme otvorené",
+    "phone": "Zavolajte nám",
+    "directions": "Navigovať do dvora",
+    "map": "Zobraziť mapu",
+    "mapPrivacy": "Mapa sa načíta zo služby Google až po kliknutí.",
+    "country": "Česká republika",
+    "social": "Nahliadnite k nám aj tu"
+  },
+  "footer": {
+    "tagline": "Poctivá kuchyňa. Ako doma.",
+    "privacy": "Súkromie",
+    "cookies": "Cookies",
+    "navigation": "Navigácia v pätičke",
+    "createdBy": "Vytvorené so starostlivosťou"
+  },
+  "legal": {
+    "privacyTitle": "Súkromie",
+    "cookiesTitle": "Cookies",
+    "privacyText": "Na tomto webe nie je kontaktný formulár ani analytika. Pri telefonickej rezervácii uvádzajte len údaje potrebné na prípravu stola. S otázkami o spracúvaní údajov nás kontaktujte telefonicky.",
+    "externalText": "Odkazy na Facebook, Instagram a mapy vedú do externých služieb, ktoré majú vlastné pravidlá ochrany súkromia. Vložená mapa Google sa načítava iba na vaše vyžiadanie.",
+    "cookiesText": "Samotný web neukladá analytické ani reklamné cookies. V pamäti aktuálnej karty si uchováva iba informáciu o už zobrazenej úvodnej animácii. Hostingová služba môže používať nevyhnutné cookies na prístup k neverejnému náhľadu."
+  },
+  "media": {
+    "courtyard": "Pohľad na budovy a dvor reštaurácie Sluneční Dvůr",
+    "platedDish": "Servírované jedlo s kašou a omáčkou na bielom tanieri",
+    "salad": "Farebný šalát s opečeným syrom na bielom tanieri",
+    "interior": "Drevený interiér reštaurácie s barom a prestretými stolmi",
+    "terrace": "Jedlo a nápoje na drevenom stole na záhradke",
+    "diningRoom": "Večerný interiér s drevenými stolmi a teplým osvetlením",
+    "desserts": "Dezerty v pohárikoch s ovocím",
+    "baking": "Čerstvo upečené pečivo na plechu",
+    "burger": "Burger a hranolky na záhradke",
+    "sign": "Drevená ceduľa Vitajte u nás, usadlosť Sluneční Dvůr",
+    "plate": "Obaľované rolky so zemiakmi a zeleninou na tanieri"
+  },
+  "captions": {
+    "courtyard": "Náš dvor",
+    "platedDish": "Z našej kuchyne",
+    "salad": "Niečo ľahšie",
+    "interior": "Poďte ďalej",
+    "terrace": "Na čerstvom vzduchu",
+    "diningRoom": "Večer u nás",
+    "desserts": "Sladká bodka",
+    "baking": "Čerstvo z rúry",
+    "burger": "Poriadne sústo",
+    "sign": "Vitajte vo dvore",
+    "plate": "Dobrú chuť"
+  }
+}

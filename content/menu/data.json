@@ -1,0 +1,1097 @@
+{
+  "categories": [
+    {
+      "id": "kids",
+      "name": {
+        "cs": "Dětská jídla",
+        "de": "Kindergerichte",
+        "en": "Children’s meals",
+        "sk": "Detské jedlá"
+      }
+    },
+    {
+      "id": "salads",
+      "name": {
+        "cs": "Saláty",
+        "de": "Salate",
+        "en": "Salads",
+        "sk": "Šaláty"
+      }
+    },
+    {
+      "id": "beer-snacks",
+      "name": {
+        "cs": "Něco k pivu",
+        "de": "Zum Bier",
+        "en": "Snacks to enjoy with beer",
+        "sk": "Niečo k pivu"
+      }
+    },
+    {
+      "id": "sides",
+      "name": {
+        "cs": "Přílohy",
+        "de": "Beilagen",
+        "en": "Side dishes",
+        "sk": "Prílohy"
+      }
+    },
+    {
+      "id": "sauces",
+      "name": {
+        "cs": "Dresinky/omáčky",
+        "de": "Dressings/Saucen",
+        "en": "Dressings/sauces",
+        "sk": "Dresingy/omáčky"
+      },
+      "subcategories": [
+        {
+          "id": "cold",
+          "name": {
+            "cs": "Studené",
+            "de": "Kalt",
+            "en": "Cold",
+            "sk": "Studené"
+          }
+        },
+        {
+          "id": "hot",
+          "name": {
+            "cs": "Teplé",
+            "de": "Warm",
+            "en": "Hot",
+            "sk": "Teplé"
+          }
+        }
+      ]
+    },
+    {
+      "id": "soups",
+      "name": {
+        "cs": "Polévky",
+        "de": "Suppen",
+        "en": "Soups",
+        "sk": "Polievky"
+      }
+    },
+    {
+      "id": "schnitzels",
+      "name": {
+        "cs": "Poctivé řízky z naší kuchyně",
+        "de": "Herzhafte Schnitzel aus unserer Küche",
+        "en": "Hearty schnitzels from our kitchen",
+        "sk": "Poctivé rezne z našej kuchyne"
+      }
+    },
+    {
+      "id": "mains",
+      "name": {
+        "cs": "Hlavní jídla",
+        "de": "Hauptgerichte",
+        "en": "Main courses",
+        "sk": "Hlavné jedlá"
+      }
+    },
+    {
+      "id": "specialties",
+      "name": {
+        "cs": "Česko-slovenské speciality",
+        "de": "Tschechisch-slowakische Spezialitäten",
+        "en": "Czech and Slovak specialties",
+        "sk": "Česko-slovenské špeciality"
+      }
+    },
+    {
+      "id": "desserts",
+      "name": {
+        "cs": "Dezerty",
+        "de": "Desserts",
+        "en": "Desserts",
+        "sk": "Dezerty"
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "kids-chicken-schnitzel",
+      "category": "kids",
+      "name": {
+        "cs": "Kuřecí řízek s hranolkami",
+        "de": "Hähnchenschnitzel mit Pommes frites",
+        "en": "Chicken schnitzel with fries",
+        "sk": "Kurací rezeň s hranolkami"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 140,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3,
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "kids-breaded-cheese",
+      "category": "kids",
+      "name": {
+        "cs": "Obalovaný sýr s hranolkami",
+        "de": "Panierter Käse mit Pommes frites",
+        "en": "Breaded cheese with fries",
+        "sk": "Obaľovaný syr s hranolkami"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 140,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3,
+        4,
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "kids-nutella-pancake",
+      "category": "kids",
+      "name": {
+        "cs": "Palačinky s Nutellou",
+        "de": "Pfannkuchen mit Nutella",
+        "en": "Pancake with Nutella",
+        "sk": "Palacinky s Nutellou"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": "1 ks",
+      "price": 65,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3,
+        7,
+        8
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "grilled-hermelin",
+      "category": "salads",
+      "name": {
+        "cs": "Grilovaný hermelín s opečeným toastem, brusinkovou majonézou a mix domácích salátů",
+        "de": "Gegrillter Hermelín-Käse mit geröstetem Toast, Preiselbeermayonnaise und einer Mischung aus Haussalaten",
+        "en": "Grilled Hermelín cheese with toasted bread, cranberry mayonnaise and mixed house salads",
+        "sk": "Grilovaný hermelín s opečeným toastom, brusnicovou majonézou a mixom domácich šalátov"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 189,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3,
+        7,
+        10
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "pasta-salad",
+      "category": "salads",
+      "name": {
+        "cs": "Těstovinový salát s bazalkovým pestem, balkánským sýrem a opečený toast",
+        "de": "Nudelsalat mit Basilikumpesto, Balkankäse und geröstetem Toast",
+        "en": "Pasta salad with basil pesto, Balkan cheese and toasted bread",
+        "sk": "Cestovinový šalát s bazalkovým pestom, balkánskym syrom a opečeným toastom"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 179,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3,
+        7,
+        8
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "homemade-potato-crisps",
+      "category": "beer-snacks",
+      "name": {
+        "cs": "Domácí bramborové lupínky s česnekovým dipem",
+        "de": "Hausgemachte Kartoffelchips mit Knoblauchdip",
+        "en": "Homemade potato crisps with garlic dip",
+        "sk": "Domáce zemiakové lupienky s cesnakovým dipom"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": "200 g",
+      "price": 80,
+      "currency": "CZK",
+      "allergens": [
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "fries",
+      "category": "sides",
+      "name": {
+        "cs": "Hranolky",
+        "de": "Pommes frites",
+        "en": "Fries",
+        "sk": "Hranolky"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 40,
+      "currency": "CZK",
+      "allergens": [
+        1
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "croquettes",
+      "category": "sides",
+      "name": {
+        "cs": "Krokety",
+        "de": "Kroketten",
+        "en": "Croquettes",
+        "sk": "Krokety"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 45,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3,
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "roasted-grenaille",
+      "category": "sides",
+      "name": {
+        "cs": "Pečené grenaille",
+        "de": "Gebackene Grenaille-Kartoffeln",
+        "en": "Roasted grenaille potatoes",
+        "sk": "Pečené grenaille"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 50,
+      "currency": "CZK",
+      "allergens": [
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "buttered-potatoes",
+      "category": "sides",
+      "name": {
+        "cs": "Brambory na másle",
+        "de": "Butterkartoffeln",
+        "en": "Buttered potatoes",
+        "sk": "Zemiaky na masle"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 45,
+      "currency": "CZK",
+      "allergens": [
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "crushed-potatoes",
+      "category": "sides",
+      "name": {
+        "cs": "Šťouchané brambory s máslem a cibulkou",
+        "de": "Stampfkartoffeln mit Butter und Zwiebeln",
+        "en": "Crushed potatoes with butter and onion",
+        "sk": "Šťuchané zemiaky s maslom a cibuľkou"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 60,
+      "currency": "CZK",
+      "allergens": [
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "potato-pancake",
+      "category": "sides",
+      "name": {
+        "cs": "Domácí bramborák",
+        "de": "Hausgemachter Kartoffelpuffer",
+        "en": "Homemade potato pancake",
+        "sk": "Domáca zemiaková placka"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 85,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "mashed-potatoes",
+      "category": "sides",
+      "name": {
+        "cs": "Jemná bramborová kaše",
+        "de": "Feines Kartoffelpüree",
+        "en": "Smooth mashed potatoes",
+        "sk": "Jemná zemiaková kaša"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 45,
+      "currency": "CZK",
+      "allergens": null,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "jasmine-rice",
+      "category": "sides",
+      "name": {
+        "cs": "Jasmínová rýže",
+        "de": "Jasminreis",
+        "en": "Jasmine rice",
+        "sk": "Jazmínová ryža"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 45,
+      "currency": "CZK",
+      "allergens": null,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "tartar-sauce",
+      "category": "sauces",
+      "name": {
+        "cs": "Tatarská omáčka",
+        "de": "Sauce Tartare",
+        "en": "Tartar sauce",
+        "sk": "Tatárska omáčka"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 35,
+      "currency": "CZK",
+      "allergens": [
+        3
+      ],
+      "featured": false,
+      "available": true,
+      "subcategory": "cold"
+    },
+    {
+      "id": "ketchup",
+      "category": "sauces",
+      "name": {
+        "cs": "Kečup",
+        "de": "Ketchup",
+        "en": "Ketchup",
+        "sk": "Kečup"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 35,
+      "currency": "CZK",
+      "allergens": null,
+      "featured": false,
+      "available": true,
+      "subcategory": "cold"
+    },
+    {
+      "id": "pepper-sauce",
+      "category": "sauces",
+      "name": {
+        "cs": "Pepřová omáčka",
+        "de": "Pfeffersauce",
+        "en": "Pepper sauce",
+        "sk": "Omáčka z čierneho korenia"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 50,
+      "currency": "CZK",
+      "allergens": [
+        7
+      ],
+      "featured": false,
+      "available": true,
+      "subcategory": "hot"
+    },
+    {
+      "id": "mushroom-sauce",
+      "category": "sauces",
+      "name": {
+        "cs": "Houbová omáčka",
+        "de": "Pilzsauce",
+        "en": "Mushroom sauce",
+        "sk": "Hubová omáčka"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 55,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        7
+      ],
+      "featured": false,
+      "available": true,
+      "subcategory": "hot"
+    },
+    {
+      "id": "demi-glace",
+      "category": "sauces",
+      "name": {
+        "cs": "Demi-glace omáčka",
+        "de": "Demi-glace-Sauce",
+        "en": "Demi-glace sauce",
+        "sk": "Demi-glace omáčka"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 45,
+      "currency": "CZK",
+      "allergens": [
+        9
+      ],
+      "featured": false,
+      "available": true,
+      "subcategory": "hot"
+    },
+    {
+      "id": "plum-sauce",
+      "category": "sauces",
+      "name": {
+        "cs": "Domácí švestková omáčka",
+        "de": "Hausgemachte Pflaumensauce",
+        "en": "Homemade plum sauce",
+        "sk": "Domáca slivková omáčka"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 65,
+      "currency": "CZK",
+      "allergens": null,
+      "featured": false,
+      "available": true,
+      "subcategory": "hot"
+    },
+    {
+      "id": "poultry-broth",
+      "category": "soups",
+      "name": {
+        "cs": "Drůbeží vývar s nudlemi",
+        "de": "Geflügelbrühe mit Nudeln",
+        "en": "Poultry broth with noodles",
+        "sk": "Hydinový vývar s rezancami"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": "0,33 l",
+      "price": 60,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3,
+        9
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "cabbage-soup",
+      "category": "soups",
+      "name": {
+        "cs": "Naše poctivá zelňačka s klobásou",
+        "de": "Unsere herzhafte Kohlsuppe mit Wurst",
+        "en": "Our hearty cabbage soup with sausage",
+        "sk": "Naša poctivá kapustnica s klobásou"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 65,
+      "currency": "CZK",
+      "allergens": [
+        1
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "veal-schnitzel",
+      "category": "schnitzels",
+      "name": {
+        "cs": "Telecí řízek",
+        "de": "Kalbsschnitzel",
+        "en": "Veal schnitzel",
+        "sk": "Teľací rezeň"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": "200 g",
+      "price": 300,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "pork-schnitzel",
+      "category": "schnitzels",
+      "name": {
+        "cs": "Smažený vepřový řízek s citronem",
+        "de": "Gebratenes Schweineschnitzel mit Zitrone",
+        "en": "Fried pork schnitzel with lemon",
+        "sk": "Vyprážaný bravčový rezeň s citrónom"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 160,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "chicken-schnitzel",
+      "category": "schnitzels",
+      "name": {
+        "cs": "Smažený kuřecí řízek s citronem",
+        "de": "Gebratenes Hähnchenschnitzel mit Zitrone",
+        "en": "Fried chicken schnitzel with lemon",
+        "sk": "Vyprážaný kurací rezeň s citrónom"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 155,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "spicy-pork",
+      "category": "mains",
+      "name": {
+        "cs": "Pálivá vepřová směs",
+        "de": "Pikante Schweinefleischmischung",
+        "en": "Spicy pork medley",
+        "sk": "Pikantná bravčová zmes"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 180,
+      "currency": "CZK",
+      "allergens": null,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "beef-cheeks",
+      "category": "mains",
+      "name": {
+        "cs": "Hovězí líčka na červeném víně s jemnou bramborovou kaší",
+        "de": "Rinderbäckchen in Rotwein mit feinem Kartoffelpüree",
+        "en": "Beef cheeks in red wine with smooth mashed potatoes",
+        "sk": "Hovädzie líčka na červenom víne s jemnou zemiakovou kašou"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 299,
+      "currency": "CZK",
+      "allergens": null,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "grilled-tenderloin",
+      "category": "mains",
+      "name": {
+        "cs": "Grilovaná panenka na bylinkách",
+        "de": "Gegrilltes Filet mit Kräutern",
+        "en": "Grilled tenderloin with herbs",
+        "sk": "Grilovaná panenka na bylinkách"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 199,
+      "currency": "CZK",
+      "allergens": [
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "fried-cheese",
+      "category": "mains",
+      "name": {
+        "cs": "Obalovaný smažený sýr",
+        "de": "Panierter, gebratener Käse",
+        "en": "Breaded fried cheese",
+        "sk": "Obaľovaný vyprážaný syr"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 150,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3,
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "chicken-steak",
+      "category": "mains",
+      "name": {
+        "cs": "Kuřecí steak na bylinkách",
+        "de": "Hähnchensteak mit Kräutern",
+        "en": "Chicken steak with herbs",
+        "sk": "Kurací steak na bylinkách"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 175,
+      "currency": "CZK",
+      "allergens": [
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "chicken-gnocchi",
+      "category": "mains",
+      "name": {
+        "cs": "Noky s kuřecím masem, špenátem a gorgonzolou",
+        "de": "Gnocchi mit Hähnchenfleisch, Spinat und Gorgonzola",
+        "en": "Gnocchi with chicken, spinach and Gorgonzola",
+        "sk": "Gnocchi s kuracím mäsom, špenátom a gorgonzolou"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": "250 g",
+      "price": 210,
+      "currency": "CZK",
+      "allergens": [
+        3,
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "statek-burger",
+      "category": "mains",
+      "name": {
+        "cs": "Hovězí burger Statek s hranolkami a česnekový dip",
+        "de": "Rindfleischburger „Statek“ mit Pommes frites und Knoblauchdip",
+        "en": "Statek beef burger with fries and garlic dip",
+        "sk": "Hovädzí burger Statek s hranolkami a cesnakovým dipom"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 255,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3,
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "stuffed-potato-dumplings",
+      "category": "specialties",
+      "name": {
+        "cs": "Plněné bramborové knedlíky naším uzeným se sladkokyselým zelím a opečenou cibulkou na sádle",
+        "de": "Kartoffelknödel mit unserem Räucherfleisch gefüllt, dazu süßsaurer Kohl und in Schmalz gebratene Zwiebeln",
+        "en": "Potato dumplings filled with our smoked meat, served with sweet-and-sour cabbage and onions fried in lard",
+        "sk": "Zemiakové knedle plnené naším údeným mäsom so sladkokyslou kapustou a cibuľkou opečenou na masti"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 229,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "bryndza-halusky",
+      "category": "specialties",
+      "name": {
+        "cs": "Bryndzové halušky s domácí opečenou slaninkou",
+        "de": "Halušky mit Bryndza und gebratenem hausgemachtem Speck",
+        "en": "Halušky dumplings with bryndza cheese and fried homemade bacon",
+        "sk": "Bryndzové halušky s domácou opečenou slaninkou"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 189,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3,
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "bryndza-pierogi",
+      "category": "specialties",
+      "name": {
+        "cs": "Bryndzové pirohy",
+        "de": "Piroggen mit Bryndza",
+        "en": "Dumplings with bryndza cheese",
+        "sk": "Bryndzové pirohy"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 219,
+      "currency": "CZK",
+      "allergens": null,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "cabbage-halusky",
+      "category": "specialties",
+      "name": {
+        "cs": "Halušky se zelím a uzeným masem",
+        "de": "Halušky mit Kohl und Räucherfleisch",
+        "en": "Halušky dumplings with cabbage and smoked meat",
+        "sk": "Halušky s kapustou a údeným mäsom"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 199,
+      "currency": "CZK",
+      "allergens": null,
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "hot-raspberries",
+      "category": "desserts",
+      "name": {
+        "cs": "Horké maliny s vanilkovou zmrzlinou a ovocem",
+        "de": "Heiße Himbeeren mit Vanilleeis und Obst",
+        "en": "Hot raspberries with vanilla ice cream and fruit",
+        "sk": "Horúce maliny s vanilkovou zmrzlinou a ovocím"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 129,
+      "currency": "CZK",
+      "allergens": [
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "ice-cream-sundae",
+      "category": "desserts",
+      "name": {
+        "cs": "Zmrzlinový pohár s čokoládou, šlehačkou a ovocem",
+        "de": "Eisbecher mit Schokolade, Schlagsahne und Obst",
+        "en": "Ice cream sundae with chocolate, whipped cream and fruit",
+        "sk": "Zmrzlinový pohár s čokoládou, šľahačkou a ovocím"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 85,
+      "currency": "CZK",
+      "allergens": [
+        7
+      ],
+      "featured": false,
+      "available": true
+    },
+    {
+      "id": "apple-strudel",
+      "category": "desserts",
+      "name": {
+        "cs": "Jablečný štrúdl s karamelizovanými jablky a vanilkovou zmrzlinou",
+        "de": "Apfelstrudel mit karamellisierten Äpfeln und Vanilleeis",
+        "en": "Apple strudel with caramelized apples and vanilla ice cream",
+        "sk": "Jablková štrúdľa s karamelizovanými jablkami a vanilkovou zmrzlinou"
+      },
+      "description": {
+        "cs": "",
+        "de": "",
+        "en": "",
+        "sk": ""
+      },
+      "weight": null,
+      "price": 110,
+      "currency": "CZK",
+      "allergens": [
+        1,
+        3,
+        7
+      ],
+      "featured": false,
+      "available": true
+    }
+  ],
+  "sourceNotes": {
+    "images": [
+      "jedalny-listok-1.jpg",
+      "jedalny-listok-2.jpg"
+    ],
+    "missingAllergens": "null means no allergen code was printed; it does not mean allergen-free.",
+    "missingWeight": "null means no portion size was printed.",
+    "descriptions": "No additional descriptions supplied; complete dish wording is retained in each localized name.",
+    "correctedCzechSpellings": [
+      {
+        "printed": "Brynzové",
+        "corrected": "Bryndzové"
+      },
+      {
+        "printed": "sladkokyselím",
+        "corrected": "sladkokyselým"
+      }
+    ],
+    "featured": "All false; the source identifies no featured dishes.",
+    "available": "All true as requested for the initial imported menu; current availability is not independently verified.",
+    "sourceDate": "No effective date appears on either source image."
+  }
+}

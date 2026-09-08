@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "Sluneční Dvůr — honest cooking in Milčeves",
+    "description": "For a hearty lunch or an evening with friends. Sluneční Dvůr restaurant, Milčeves 55 near Žatec. Menu, photos and reservations.",
+    "menuTitle": "Menu | Sluneční Dvůr",
+    "galleryTitle": "Photos from the courtyard | Sluneční Dvůr"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "menu": "Menu",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "reserve": "Book a table",
+    "language": "Language",
+    "open": "Open navigation",
+    "close": "Close navigation",
+    "skip": "Skip to content",
+    "chooseLanguage": "Make yourself at home"
+  },
+  "hero": {
+    "eyebrow": "MILČEVES NEAR ŽATEC · RESTAURANT AND COURTYARD",
+    "line1": "Honest cooking.",
+    "line2": "Just like home.",
+    "text": "For a hearty lunch. For time together.\nFor a place you’ll love coming back to.",
+    "menu": "Explore the menu",
+    "reserve": "Come and join us",
+    "scroll": "Welcome to our place",
+    "location": "Near Žatec, where it’s easy to unwind."
+  },
+  "common": {
+    "closed": "Closed",
+    "call": "Call",
+    "allPhotos": "All photos",
+    "fullMenu": "Full menu",
+    "back": "Back to home",
+    "next": "Next photo",
+    "previous": "Previous photo",
+    "close": "Close",
+    "photo": "Photo",
+    "of": "of",
+    "copyright": "All rights reserved."
+  },
+  "story": {
+    "eyebrow": "TOGETHER AT THE TABLE",
+    "title": "Food that speaks for itself.",
+    "text": "Honest home cooking, a generous plate and time for each other. That’s just how we like it at Sluneční Dvůr.",
+    "text2": "Stop by in Milčeves. For lunch, for something delicious or simply to spend time with people who make you feel at home.",
+    "caption": "From our kitchen straight to your table.",
+    "signature": "We look forward to welcoming you to the courtyard."
+  },
+  "menu": {
+    "eyebrow": "WHAT WE’RE BRINGING TO THE TABLE",
+    "title": "Good food.\nGenerous portions.",
+    "intro": "There’s something for everyone in our kitchen. From hot soup and schnitzels to Czech and Slovak specialties.",
+    "pageTitle": "Menu",
+    "pageIntro": "Choose whatever takes your fancy. We’ll take care of the rest.",
+    "allergens": "Allergens",
+    "allergenInfo": "Allergen numbers are taken from the printed menu. Where none are listed, this does not mean the dish is free from allergens. Our staff will be happy to help you choose.",
+    "source": "View the original menu",
+    "sourcePage": "Page",
+    "priceNote": "Prices are in CZK. Please ask our staff about current dish availability.",
+    "daily": "Daily specials",
+    "allergenLegend": [
+      "Cereals containing gluten",
+      "Crustaceans",
+      "Eggs",
+      "Fish",
+      "Peanuts",
+      "Soya",
+      "Milk",
+      "Tree nuts",
+      "Celery",
+      "Mustard",
+      "Sesame",
+      "Sulphur dioxide and sulphites",
+      "Lupin",
+      "Molluscs"
+    ]
+  },
+  "atmosphere": {
+    "eyebrow": "MOMENTS IN THE COURTYARD",
+    "title": "There’s no\nrush here.",
+    "text": "Wooden tables, light across the courtyard and something delicious in front of you. Sometimes that’s all it takes.",
+    "caption": "Sluneční Dvůr, Milčeves",
+    "play": "A little moment in the courtyard",
+    "videoLabel": "An evening view of the courtyard",
+    "videoText": "The terrace at dusk. 12 seconds in our courtyard.",
+    "pause": "Pause video"
+  },
+  "gallery": {
+    "eyebrow": "A LOOK AROUND OUR PLACE",
+    "title": "From the table.\nFrom the courtyard.",
+    "intro": "A little from the kitchen, a little from our everyday life. Above all, a glimpse of a place where we’d love to welcome you.",
+    "pageTitle": "A few glimpses of our place",
+    "all": "All",
+    "food": "Food",
+    "restaurant": "Restaurant",
+    "courtyard": "Courtyard and terrace",
+    "kitchen": "From the kitchen",
+    "open": "Enlarge photo",
+    "more": "Explore the full gallery"
+  },
+  "reservation": {
+    "eyebrow": "THERE’S A PLACE AT THE TABLE",
+    "title": "Feeling hungry?",
+    "subtitle": "We’ll be happy to set a table for you.",
+    "call": "Call to book",
+    "facebook": "Message us on Facebook"
+  },
+  "contact": {
+    "eyebrow": "FIND YOUR WAY HERE",
+    "title": "You’ll find us\nin Milčeves.",
+    "address": "Our address",
+    "hours": "When we’re open",
+    "phone": "Give us a call",
+    "directions": "Get directions to the courtyard",
+    "map": "Show map",
+    "mapPrivacy": "The Google map will only load after you click.",
+    "country": "Czech Republic",
+    "social": "See more of our place here"
+  },
+  "footer": {
+    "tagline": "Honest cooking. Just like home.",
+    "privacy": "Privacy",
+    "cookies": "Cookies",
+    "navigation": "Footer navigation",
+    "createdBy": "Made with care by"
+  },
+  "legal": {
+    "privacyTitle": "Privacy",
+    "cookiesTitle": "Cookies",
+    "privacyText": "This website has no contact form or analytics. When booking by phone, please provide only the details needed to prepare your table. If you have questions about how your data is processed, please contact us by phone.",
+    "externalText": "Links to Facebook, Instagram and maps lead to external services with their own privacy policies. The embedded Google map loads only when you request it.",
+    "cookiesText": "The website itself does not store analytics or advertising cookies. It only keeps a record in the current tab’s memory of whether the opening animation has already been shown. The hosting service may use essential cookies to provide access to a private preview."
+  },
+  "media": {
+    "courtyard": "View of the buildings and courtyard at Sluneční Dvůr",
+    "platedDish": "A meal with mash and sauce served on a white plate",
+    "salad": "Colourful salad with fried cheese on a white plate",
+    "interior": "Wooden restaurant interior with a bar and set tables",
+    "terrace": "Food and drinks on a wooden table on the terrace",
+    "diningRoom": "Dining room in the evening with wooden tables and warm lighting",
+    "desserts": "Desserts in glasses with fruit",
+    "baking": "Freshly baked pastries on a baking tray",
+    "burger": "Burger and fries on the terrace",
+    "sign": "Wooden welcome sign for the Sluneční Dvůr estate",
+    "plate": "Breaded rolls with potatoes and vegetables on a plate"
+  },
+  "captions": {
+    "courtyard": "Our courtyard",
+    "platedDish": "From our kitchen",
+    "salad": "Something lighter",
+    "interior": "Come on in",
+    "terrace": "Out in the fresh air",
+    "diningRoom": "An evening with us",
+    "desserts": "A sweet finish",
+    "baking": "Fresh from the oven",
+    "burger": "A proper bite",
+    "sign": "Welcome to the courtyard",
+    "plate": "Enjoy your meal"
+  }
+}

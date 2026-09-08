@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "title": "Sluneční Dvůr — ehrliche Küche in Milčeves",
+    "description": "Für ein gutes Mittagessen oder einen Abend mit Freunden. Restaurant Sluneční Dvůr, Milčeves 55 bei Žatec. Speisekarte, Fotos und Reservierung.",
+    "menuTitle": "Speisekarte | Sluneční Dvůr",
+    "galleryTitle": "Bilder vom Hof | Sluneční Dvůr"
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "menu": "Speisekarte",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "reserve": "Tisch reservieren",
+    "language": "Sprache",
+    "open": "Navigation öffnen",
+    "close": "Navigation schließen",
+    "skip": "Zum Inhalt springen",
+    "chooseLanguage": "Herzlich willkommen"
+  },
+  "hero": {
+    "eyebrow": "MILČEVES BEI ŽATEC · RESTAURANT UND HOF",
+    "line1": "Ehrliche Küche.",
+    "line2": "Wie zu Hause.",
+    "text": "Für ein gutes Mittagessen. Für gemeinsame Zeit.\nFür einen Ort, an den Sie gerne zurückkehren.",
+    "menu": "Speisekarte ansehen",
+    "reserve": "Kommen Sie vorbei",
+    "scroll": "Willkommen bei uns",
+    "location": "Ganz nah bei Žatec. Ganz entspannt."
+  },
+  "common": {
+    "closed": "Geschlossen",
+    "call": "Anrufen",
+    "allPhotos": "Alle Fotos",
+    "fullMenu": "Die ganze Speisekarte",
+    "back": "Zurück zur Startseite",
+    "next": "Nächstes Foto",
+    "previous": "Vorheriges Foto",
+    "close": "Schließen",
+    "photo": "Foto",
+    "of": "von",
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "story": {
+    "eyebrow": "GEMEINSAM AM TISCH",
+    "title": "Gutes Essen spricht für sich.",
+    "text": "Ehrliche Hausmannskost, ein voller Teller und Zeit füreinander. Genau so mögen wir es im Sluneční Dvůr.",
+    "text2": "Schauen Sie in Milčeves vorbei. Zum Mittagessen, für etwas Leckeres oder einfach, um mit lieben Menschen zusammenzusitzen.",
+    "caption": "Aus unserer Küche direkt auf den Tisch.",
+    "signature": "Wir freuen uns auf Sie bei uns auf dem Hof."
+  },
+  "menu": {
+    "eyebrow": "DAS KOMMT BEI UNS AUF DEN TISCH",
+    "title": "Gutes Essen.\nOrdentliche Portionen.",
+    "intro": "Bei uns findet jeder etwas. Von heißer Suppe über Schnitzel bis zu tschechisch-slowakischen Spezialitäten.",
+    "pageTitle": "Speisekarte",
+    "pageIntro": "Wählen Sie, worauf Sie Lust haben. Um den Rest kümmern wir uns.",
+    "allergens": "Allergene",
+    "allergenInfo": "Die Allergennummern übernehmen wir aus der Speisekarte. Fehlende Angaben bedeuten nicht, dass ein Gericht frei von Allergenen ist. Unser Service hilft Ihnen gerne bei der Auswahl.",
+    "source": "Originalspeisekarte ansehen",
+    "sourcePage": "Seite",
+    "priceNote": "Die Preise sind in CZK angegeben. Unser Service sagt Ihnen gerne, welche Gerichte aktuell verfügbar sind.",
+    "daily": "Tagesangebot",
+    "allergenLegend": [
+      "Glutenhaltiges Getreide",
+      "Krebstiere",
+      "Eier",
+      "Fisch",
+      "Erdnüsse",
+      "Soja",
+      "Milch",
+      "Schalenfrüchte",
+      "Sellerie",
+      "Senf",
+      "Sesam",
+      "Schwefeldioxid und Sulfite",
+      "Lupinen",
+      "Weichtiere"
+    ]
+  },
+  "atmosphere": {
+    "eyebrow": "AUGENBLICKE AUF DEM HOF",
+    "title": "Hier dürfen Sie\nsich Zeit lassen.",
+    "text": "Holztische, Licht im Hof und etwas Gutes auf dem Teller. Manchmal braucht es gar nicht mehr.",
+    "caption": "Sluneční Dvůr, Milčeves",
+    "play": "Ein kleiner Moment auf dem Hof",
+    "videoLabel": "Blick auf den Hof am Abend",
+    "videoText": "Die Terrasse in der Dämmerung. 12 Sekunden auf unserem Hof.",
+    "pause": "Video pausieren"
+  },
+  "gallery": {
+    "eyebrow": "SO SIEHT ES BEI UNS AUS",
+    "title": "Vom Tisch.\nVom Hof.",
+    "intro": "Ein bisschen aus der Küche, ein bisschen aus unserem Alltag. Vor allem aber von einem Ort, an dem wir Sie gerne begrüßen.",
+    "pageTitle": "Ein paar Einblicke",
+    "all": "Alles",
+    "food": "Essen",
+    "restaurant": "Restaurant",
+    "courtyard": "Hof und Terrasse",
+    "kitchen": "Aus der Küche",
+    "open": "Foto vergrößern",
+    "more": "Die ganze Galerie ansehen"
+  },
+  "reservation": {
+    "eyebrow": "EIN PLATZ AM TISCH FINDET SICH",
+    "title": "Appetit bekommen?",
+    "subtitle": "Wir bereiten Ihnen gerne einen Tisch vor.",
+    "call": "Anrufen und reservieren",
+    "facebook": "Auf Facebook schreiben"
+  },
+  "contact": {
+    "eyebrow": "IHR WEG ZU UNS",
+    "title": "Sie finden uns\nin Milčeves.",
+    "address": "Unsere Adresse",
+    "hours": "Unsere Öffnungszeiten",
+    "phone": "Rufen Sie uns an",
+    "directions": "Route zum Hof planen",
+    "map": "Karte anzeigen",
+    "mapPrivacy": "Die Google-Karte wird erst nach einem Klick geladen.",
+    "country": "Tschechische Republik",
+    "social": "Hier gibt es weitere Einblicke"
+  },
+  "footer": {
+    "tagline": "Ehrliche Küche. Wie zu Hause.",
+    "privacy": "Datenschutz",
+    "cookies": "Cookies",
+    "navigation": "Navigation im Fußbereich",
+    "createdBy": "Mit Sorgfalt gestaltet von"
+  },
+  "legal": {
+    "privacyTitle": "Datenschutz",
+    "cookiesTitle": "Cookies",
+    "privacyText": "Diese Website hat weder ein Kontaktformular noch eine Webanalyse. Geben Sie bei einer telefonischen Reservierung nur die Angaben an, die wir benötigen, um Ihren Tisch vorzubereiten. Bei Fragen zur Verarbeitung Ihrer Daten kontaktieren Sie uns bitte telefonisch.",
+    "externalText": "Links zu Facebook, Instagram und Karten führen zu externen Diensten mit eigenen Datenschutzbestimmungen. Die eingebettete Google-Karte wird nur auf Ihre Anforderung geladen.",
+    "cookiesText": "Die Website selbst speichert keine Analyse- oder Werbecookies. Im Speicher des aktuellen Tabs wird lediglich festgehalten, ob die Startanimation bereits angezeigt wurde. Der Hosting-Dienst kann notwendige Cookies für den Zugriff auf eine nicht öffentliche Vorschau verwenden."
+  },
+  "media": {
+    "courtyard": "Blick auf die Gebäude und den Hof des Sluneční Dvůr",
+    "platedDish": "Ein Gericht mit Püree und Sauce auf einem weißen Teller",
+    "salad": "Bunter Salat mit gebratenem Käse auf einem weißen Teller",
+    "interior": "Restaurant mit Holzeinrichtung, Bar und gedeckten Tischen",
+    "terrace": "Essen und Getränke auf einem Holztisch auf der Terrasse",
+    "diningRoom": "Gastraum am Abend mit Holztischen und warmem Licht",
+    "desserts": "Desserts im Glas mit Obst",
+    "baking": "Frisch gebackenes Gebäck auf einem Backblech",
+    "burger": "Burger und Pommes frites auf der Terrasse",
+    "sign": "Hölzernes Willkommensschild des Anwesens Sluneční Dvůr",
+    "plate": "Panierte Röllchen mit Kartoffeln und Gemüse auf einem Teller"
+  },
+  "captions": {
+    "courtyard": "Unser Hof",
+    "platedDish": "Aus unserer Küche",
+    "salad": "Etwas Leichtes",
+    "interior": "Kommen Sie herein",
+    "terrace": "Unter freiem Himmel",
+    "diningRoom": "Ein Abend bei uns",
+    "desserts": "Zum süßen Abschluss",
+    "baking": "Frisch aus dem Ofen",
+    "burger": "Herzhaft genießen",
+    "sign": "Willkommen auf dem Hof",
+    "plate": "Guten Appetit"
+  }
+}
