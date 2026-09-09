@@ -3,6 +3,8 @@ import { Hero } from "@/components/hero/hero";
 import { Story } from "@/components/sections/story";
 import { MenuPreview } from "@/components/menu/menu-preview";
 import { Atmosphere } from "@/components/sections/atmosphere";
+import { Occasions } from "@/components/sections/occasions";
+import { Careers } from "@/components/sections/careers";
 import { GalleryPreview } from "@/components/sections/gallery-preview";
 import { Reservation } from "@/components/contact/reservation";
 import { Contact } from "@/components/contact/contact";
@@ -32,8 +34,10 @@ export default async function Home({
       <Hero />
       <Story />
       <MenuPreview />
+      <Occasions />
       <Atmosphere />
       <GalleryPreview />
+      <Careers />
       <Reservation />
       <Contact />
     </main>

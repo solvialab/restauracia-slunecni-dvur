@@ -13,7 +13,7 @@ export async function MenuPreview() {
       <div className="container menu-preview-layout">
         <div className="menu-preview-intro">
           <p className="eyebrow section-kicker">
-            <span>02</span>
+            <Sun className="kicker-sun" />
             {t("eyebrow")}
           </p>
           <h2>{t("title")}</h2>

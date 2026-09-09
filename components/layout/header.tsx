@@ -141,6 +141,7 @@ export function Header() {
   const links = [
     { key: "home", href: `/${locale}/` },
     { key: "about", href: `/${locale}/#o-nas` },
+    { key: "occasions", href: `/${locale}/#oslavy-a-pobyt` },
     { key: "menu", href: `/${locale}/jidelnilistek/` },
     { key: "gallery", href: `/${locale}/galerie/` },
     { key: "contact", href: `/${locale}/#kontakt` },
@@ -241,13 +242,13 @@ export function Header() {
           </button>
         </div>
         <nav>
-          {links.map((link, i) => (
+          {links.map((link) => (
             <Link
               href={link.href}
               key={link.key}
               onClick={() => setOpen(false)}
             >
-              <small>0{i + 1}</small>
+              <Sun className="mobile-nav-sun" />
               {t(link.key)}
               <Arrow />
             </Link>

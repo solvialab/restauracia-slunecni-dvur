@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getLocale, getTranslations } from "next-intl/server";
 import { Gallery } from "@/components/gallery/gallery";
-import { Arrow } from "@/components/ui/sun";
+import { Arrow, Sun } from "@/components/ui/sun";
 export async function GalleryPreview() {
   const t = await getTranslations("gallery");
   const locale = await getLocale();
@@ -10,7 +10,7 @@ export async function GalleryPreview() {
       <div className="gallery-heading">
         <div>
           <p className="eyebrow section-kicker">
-            <span>04</span>
+            <Sun className="kicker-sun" />
             {t("eyebrow")}
           </p>
           <h2>{t("title")}</h2>

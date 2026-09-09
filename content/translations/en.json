@@ -16,7 +16,9 @@
     "open": "Open navigation",
     "close": "Close navigation",
     "skip": "Skip to content",
-    "chooseLanguage": "Make yourself at home"
+    "chooseLanguage": "Make yourself at home",
+    "occasions": "Celebrations & stays",
+    "careers": "Join our team"
   },
   "hero": {
     "eyebrow": "MILČEVES NEAR ŽATEC · RESTAURANT AND COURTYARD",
@@ -90,16 +92,38 @@
   },
   "gallery": {
     "eyebrow": "A LOOK AROUND OUR PLACE",
-    "title": "From the table.\nFrom the courtyard.",
-    "intro": "A little from the kitchen, a little from our everyday life. Above all, a glimpse of a place where we’d love to welcome you.",
-    "pageTitle": "A few glimpses of our place",
+    "title": "Life at\nSluneční Dvůr.",
+    "intro": "What’s cooking, what’s growing and how we celebrate. A little glimpse of life at our farmstead.",
+    "pageTitle": "Around our courtyard",
     "all": "All",
-    "food": "Food",
+    "food": "At the table",
     "restaurant": "Restaurant",
     "courtyard": "Courtyard and terrace",
     "kitchen": "From the kitchen",
     "open": "Enlarge photo",
-    "more": "Explore the full gallery"
+    "more": "Explore the full gallery",
+    "events": "Celebrations & events",
+    "garden": "Our garden",
+    "place": "Courtyard & restaurant",
+    "showing": "Photos in this selection: {count}",
+    "groups": {
+      "food": {
+        "title": "From our kitchen to your table",
+        "text": "Hearty dishes, lighter bites and something sweet to finish."
+      },
+      "events": {
+        "title": "Reasons to come together",
+        "text": "Tables set for a celebration, birthdays and moments to remember."
+      },
+      "garden": {
+        "title": "See what’s growing",
+        "text": "A look at our garden beds, greenhouse and crates of freshly picked produce."
+      },
+      "place": {
+        "title": "Make yourself at home",
+        "text": "Come by for a while. There’s a warm welcome in the courtyard and indoors."
+      }
+    }
   },
   "reservation": {
     "eyebrow": "THERE’S A PLACE AT THE TABLE",
@@ -145,7 +169,18 @@
     "baking": "Freshly baked pastries on a baking tray",
     "burger": "Burger and fries on the terrace",
     "sign": "Wooden welcome sign for the Sluneční Dvůr estate",
-    "plate": "Breaded rolls with potatoes and vegetables on a plate"
+    "plate": "Breaded rolls with potatoes and vegetables on a plate",
+    "celebration": "Long tables set for a celebration in the restaurant’s wood-panelled interior",
+    "birthday": "A birthday celebration with a cake and gold balloons in the restaurant",
+    "party": "A collage of photos from a family celebration in the garden with birthday cakes",
+    "buffet": "Guests at the buffet during an outdoor celebration",
+    "partyFood": "A collage of food and refreshments prepared for a celebration",
+    "tomatoes": "Crates of colourful tomatoes from our own harvest",
+    "greenhouse": "Rows of plants with ripening tomatoes in the greenhouse",
+    "lettuce": "Green curly lettuces growing in a garden bed",
+    "cucumbers": "Freshly picked cucumbers from our garden",
+    "kohlrabi": "Kohlrabi growing in a garden bed",
+    "harvest": "A crate of freshly harvested aubergines and courgettes"
   },
   "captions": {
     "courtyard": "Our courtyard",
@@ -158,6 +193,74 @@
     "baking": "Fresh from the oven",
     "burger": "A proper bite",
     "sign": "Welcome to the courtyard",
-    "plate": "Enjoy your meal"
+    "plate": "Enjoy your meal",
+    "celebration": "Set for a celebration",
+    "birthday": "A birthday toast",
+    "party": "Better together",
+    "buffet": "Celebrating under the open sky",
+    "partyFood": "Plenty to choose from",
+    "tomatoes": "The colours of our harvest",
+    "greenhouse": "Where it all begins",
+    "lettuce": "Fresh from the garden bed",
+    "cucumbers": "Just picked",
+    "kohlrabi": "Growing in our garden",
+    "harvest": "From garden to kitchen"
+  },
+  "garden": {
+    "eyebrow": "GROWN RIGHT HERE",
+    "title": "Good food starts in the garden.",
+    "text": "We grow our own tomatoes, crisp salad leaves, cucumbers and other vegetables right here. Whatever is ripening in the garden helps shape what we cook.",
+    "more": "Take a look around the garden"
+  },
+  "occasions": {
+    "eyebrow": "MORE THAN A GOOD LUNCH",
+    "title": "For all the moments\nthat bring us together.",
+    "intro": "Sometimes all you need is a table for two. Other times, you want the whole family or your friends around you. There’s room here for those shared moments, too.",
+    "photoCaption": "The table is set for your gathering.",
+    "celebrations": {
+      "title": "Family celebrations",
+      "text": "A special lunch or a gathering for the whole family. Together at one table, with good food."
+    },
+    "birthdays": {
+      "title": "Birthdays",
+      "text": "Reasons to celebrate, big and small. Bring your loved ones and enjoy the day together."
+    },
+    "events": {
+      "title": "Events & gatherings",
+      "text": "A catch-up with friends or a group event. A place for good food and good conversation."
+    },
+    "note": "We’ll be happy to discuss the date, number of guests and your ideas in person.",
+    "call": "Plan your celebration",
+    "stay": {
+      "eyebrow": "STAY A LITTLE LONGER",
+      "title": "Why not stay the night?",
+      "text": "Combine a visit to the restaurant with a stay at the farmstead. You’ll find accommodation options and booking information on the Gut Sonnenhof website.",
+      "link": "Explore accommodation"
+    }
+  },
+  "careers": {
+    "eyebrow": "AN OPENING IN OUR KITCHEN",
+    "title": "We’re looking\nfor a cook.",
+    "intro": "Do you love cooking good, honest food? Join us in Milčeves, near Žatec. We cook Czech and international dishes, with room for your experience and your own ideas.",
+    "salaryLabel": "Salary",
+    "salaryNote": "depending on experience",
+    "stayLabel": "Accommodation",
+    "stayValue": "Option of accommodation",
+    "details": "What we offer and who we’re looking for",
+    "offersTitle": "What you’ll find here",
+    "offers": [
+      "A friendly, close-knit team",
+      "Stable employment",
+      "Room for your creativity and ideas"
+    ],
+    "requiresTitle": "What we’re looking for",
+    "requires": [
+      "Relevant experience",
+      "The ability to work independently and responsibly",
+      "Enthusiasm for work and learning new things"
+    ],
+    "call": "Get in touch",
+    "posterLink": "Open the full job advert",
+    "posterAlt": "Sluneční Dvůr job advert: we’re looking for a cook. Job details and contact information appear beside the image."
   }
 }

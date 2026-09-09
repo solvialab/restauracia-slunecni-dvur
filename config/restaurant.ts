@@ -26,4 +26,11 @@ export const restaurantConfig = {
   },
   menuSources: ["/media/jedalny-listok-1.jpg", "/media/jedalny-listok-2.jpg"],
   creator: { name: "Solvia Lab s.r.o.", url: "https://solvialab.tech" },
+  accommodation: { name: "Gut Sonnenhof", url: "https://gut-sonnenhof.eu/" },
+  careers: {
+    enabled: true,
+    phone: "+420 775 843 850",
+    phoneHref: "tel:+420775843850",
+    salary: "30 000–45 000 Kč",
+  },
 } as const;

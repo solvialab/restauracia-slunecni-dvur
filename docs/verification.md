@@ -17,3 +17,11 @@ Verified on 8 September 2026 against the production static export, including its
 Touch-swipe handling and reduced-motion branches were reviewed in code. Physical iOS/Android testing and a measured Lighthouse score were not performed; no unmeasured score is claimed.
 
 Menu source notes: original photos do not give an effective date or all portion/allergen information. Missing values remain absent; no prices or allergens were inferred. Source media remain untouched.
+
+## Content and design extension — 9 September 2026
+
+- Production compilation, TypeScript and the existing 20-page export validation pass after adding celebrations, accommodation, homegrown vegetables and recruitment.
+- Additional export checks verify the four new content anchors in every locale, the accommodation URL, distinct recruitment and restaurant phone links, the supplied salary range, and the current 12:00–21:00 hours.
+- The gallery contains 22 unique photographs in four groups: food (6), events (5), place (5) and garden (6). Original assets, translated alt text and short captions exist for every entry. Supplied collages use contained thumbnails.
+- Reviewed all 20 newly supplied photographs and the recruitment poster. The poster's contact is 775 843 850; restaurant reservations remain +420 733 467 922. No pay period or gross/net salary claim was inferred.
+- Source review confirms that gallery filtering and modal indexing use the same ordered list, category hashes open matching selections, and new content has responsive styles. This extension has not had a new browser interaction or visual test pass.

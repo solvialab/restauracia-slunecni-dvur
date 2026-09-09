@@ -3,7 +3,7 @@ import type { Locale } from "@/i18n/routing";
 import { getTranslations, getLocale } from "next-intl/server";
 import { restaurantConfig as r } from "@/config/restaurant";
 import { RestaurantMap } from "./map";
-import { Arrow } from "@/components/ui/sun";
+import { Arrow, Sun } from "@/components/ui/sun";
 export async function Contact() {
   const t = await getTranslations("contact");
   const c = await getTranslations("common");
@@ -12,7 +12,7 @@ export async function Contact() {
     <section id="kontakt" className="container contact-section section-space">
       <div className="contact-heading">
         <p className="eyebrow section-kicker">
-          <span>05</span>
+          <Sun className="kicker-sun" />
           {t("eyebrow")}
         </p>
         <h2>{t("title")}</h2>

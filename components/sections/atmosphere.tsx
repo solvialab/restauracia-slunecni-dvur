@@ -1,3 +1,4 @@
+import { Sun } from "@/components/ui/sun";
 import { getTranslations } from "next-intl/server";
 import { PhotoMoment } from "@/components/media/photo-moment";
 import { AtmosphereVideo } from "@/components/media/atmosphere-video";
@@ -15,7 +16,7 @@ export async function Atmosphere() {
       <div className="container atmosphere-content section-space">
         <div className="atmosphere-heading">
           <p className="eyebrow section-kicker">
-            <span>03</span>
+            <Sun className="kicker-sun" />
             {t("eyebrow")}
           </p>
           <h2>{t("title")}</h2>

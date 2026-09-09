@@ -20,6 +20,10 @@ export async function Footer() {
           <nav aria-label={t("navigation")}>
             <Link href={`/${locale}/jidelnilistek/`}>{n("menu")}</Link>
             <Link href={`/${locale}/galerie/`}>{n("gallery")}</Link>
+            <Link href={`/${locale}/#oslavy-a-pobyt`}>{n("occasions")}</Link>
+            {r.careers.enabled && (
+              <Link href={`/${locale}/#prace`}>{n("careers")}</Link>
+            )}
             <Link href={`/${locale}/#kontakt`}>{n("contact")}</Link>
           </nav>
           <div className="footer-social">

@@ -34,11 +34,16 @@ export function Arrow({
       height="20"
       viewBox="0 0 24 24"
       fill="none"
-      style={{
-        transform: `rotate(${{ right: 0, left: 180, down: 90, "up-right": -45 }[direction]}deg)`,
-      }}
     >
-      <path d="M4 12h15m-6-6 6 6-6 6" stroke="currentColor" strokeWidth="1.4" />
+      <g
+        transform={`rotate(${{ right: 0, left: 180, down: 90, "up-right": -45 }[direction]} 12 12)`}
+      >
+        <path
+          d="M4 12h15m-6-6 6 6-6 6"
+          stroke="currentColor"
+          strokeWidth="1.4"
+        />
+      </g>
     </svg>
   );
 }

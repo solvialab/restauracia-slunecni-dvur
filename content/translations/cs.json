@@ -16,7 +16,9 @@
     "open": "Otevřít navigaci",
     "close": "Zavřít navigaci",
     "skip": "Přejít na obsah",
-    "chooseLanguage": "U nás jste vítáni"
+    "chooseLanguage": "U nás jste vítáni",
+    "occasions": "Oslavy a pobyt",
+    "careers": "Práce u nás"
   },
   "hero": {
     "eyebrow": "MILČEVES U ŽATCE · RESTAURACE A DVŮR",
@@ -90,16 +92,38 @@
   },
   "gallery": {
     "eyebrow": "TAKHLE TO U NÁS VYPADÁ",
-    "title": "Ze stolu.\nZe dvora.",
-    "intro": "Něco z kuchyně, něco z našeho každodenního života. A hlavně z místa, kde vás rádi uvidíme.",
-    "pageTitle": "Pár pohledů k nám",
+    "title": "Život ve\nSlunečním Dvoře.",
+    "intro": "Co se vaří, co právě roste a jak se u nás slaví. Malé nahlédnutí do života naší usedlosti.",
+    "pageTitle": "U nás ve dvoře",
     "all": "Všechno",
-    "food": "Jídlo",
+    "food": "Na stole",
     "restaurant": "Restaurace",
     "courtyard": "Dvůr a zahrádka",
     "kitchen": "Z kuchyně",
     "open": "Zvětšit fotografii",
-    "more": "Prohlédnout celou galerii"
+    "more": "Prohlédnout celou galerii",
+    "events": "Oslavy a akce",
+    "garden": "Naše zahrada",
+    "place": "Dvůr a restaurace",
+    "showing": "Fotografie ve výběru: {count}",
+    "groups": {
+      "food": {
+        "title": "Z kuchyně rovnou na stůl",
+        "text": "Něco poctivého, něco lehkého i sladká tečka."
+      },
+      "events": {
+        "title": "Důvody být spolu",
+        "text": "Prostřené stoly, narozeniny a chvíle, na které se vzpomíná."
+      },
+      "garden": {
+        "title": "Co nám roste pod rukama",
+        "text": "Ze záhonů, skleníku i čerstvě sklizených bedýnek."
+      },
+      "place": {
+        "title": "Vítejte u nás",
+        "text": "Zastavte se. Na dvoře i uvnitř je dobře."
+      }
+    }
   },
   "reservation": {
     "eyebrow": "MÍSTO U STOLU SE NAJDE",
@@ -145,7 +169,18 @@
     "baking": "Čerstvě upečené pečivo na plechu",
     "burger": "Burger a hranolky na zahrádce",
     "sign": "Dřevěná cedule Vítejte u nás, Usedlost Sluneční Dvůr",
-    "plate": "Obalované rolky s bramborami a zeleninou na talíři"
+    "plate": "Obalované rolky s bramborami a zeleninou na talíři",
+    "celebration": "Slavnostně prostřené dlouhé stoly v dřevěném interiéru restaurace",
+    "birthday": "Narozeninová oslava s dortem a zlatými balónky v restauraci",
+    "party": "Koláž fotografií rodinné oslavy na zahradě s narozeninovými dorty",
+    "buffet": "Hosté u připraveného občerstvení při venkovní oslavě",
+    "partyFood": "Koláž občerstvení a jídel připravených na společnou oslavu",
+    "tomatoes": "Bedýnky různobarevných rajčat z vlastní úrody",
+    "greenhouse": "Řady rostlin s dozrávajícími rajčaty ve skleníku",
+    "lettuce": "Zelené kadeřavé saláty rostoucí na záhonu",
+    "cucumbers": "Čerstvě sklizené okurky z naší zahrady",
+    "kohlrabi": "Kedlubna rostoucí v půdě na záhonu",
+    "harvest": "Bedýnka sklizených lilků a cuket"
   },
   "captions": {
     "courtyard": "Náš dvůr",
@@ -158,6 +193,74 @@
     "baking": "Čerstvě z trouby",
     "burger": "Pořádné sousto",
     "sign": "Vítejte ve dvoře",
-    "plate": "Dobrou chuť"
+    "plate": "Dobrou chuť",
+    "celebration": "Svátečně prostřeno",
+    "birthday": "Na zdraví oslavenci",
+    "party": "Spolu je nejlépe",
+    "buffet": "Oslava pod širým nebem",
+    "partyFood": "Ať je z čeho vybírat",
+    "tomatoes": "Barvy naší úrody",
+    "greenhouse": "Tady to všechno začíná",
+    "lettuce": "Čerstvě ze záhonu",
+    "cucumbers": "Právě sklizeno",
+    "kohlrabi": "Roste nám pod rukama",
+    "harvest": "Ze zahrady do kuchyně"
+  },
+  "garden": {
+    "eyebrow": "PĚSTUJEME SI SAMI",
+    "title": "Dobré jídlo začíná v záhonech.",
+    "text": "Rajčata, křupavé saláty, okurky i další zeleninu pěstujeme přímo u nás. Naše kuchyně tak žije i tím, co právě dozrává na zahradě.",
+    "more": "Nahlédnout do zahrady"
+  },
+  "occasions": {
+    "eyebrow": "VÍC NEŽ JEN DOBRÝ OBĚD",
+    "title": "Na všechny chvíle,\nkteré patří k sobě.",
+    "intro": "Někdy stačí stůl pro dva. Jindy chcete mít kolem sebe celou rodinu nebo přátele. U nás je místo i pro vaše společné chvíle.",
+    "photoCaption": "Prostřeno pro vaše setkání.",
+    "celebrations": {
+      "title": "Rodinné oslavy",
+      "text": "Slavnostní oběd i setkání celé rodiny. U jednoho stolu a s dobrým jídlem."
+    },
+    "birthdays": {
+      "title": "Narozeniny",
+      "text": "Malé i velké důvody k oslavě. Přiveďte své nejbližší a užijte si den spolu."
+    },
+    "events": {
+      "title": "Akce a setkání",
+      "text": "Posezení s přáteli i společná akce. Prostor, kde se dobře jí a povídá."
+    },
+    "note": "Termín, počet hostů a vaše představy s vámi rádi domluvíme osobně.",
+    "call": "Domluvit oslavu",
+    "stay": {
+      "eyebrow": "ZŮSTAŇTE O CHVÍLI DÉLE",
+      "title": "A co takhle přespat?",
+      "text": "Spojte návštěvu restaurace s pobytem na usedlosti. Možnosti ubytování a rezervace najdete na webu Gut Sonnenhof.",
+      "link": "Prohlédnout ubytování"
+    }
+  },
+  "careers": {
+    "eyebrow": "VOLNÉ MÍSTO V NAŠÍ KUCHYNI",
+    "title": "Hledáme kuchaře\nnebo kuchařku.",
+    "intro": "Máte rádi poctivé vaření? Přidejte se k nám v Milčevsi u Žatce. Vaříme českou i mezinárodní kuchyni a dáváme prostor zkušenostem i vlastním nápadům.",
+    "salaryLabel": "Nabízená mzda",
+    "salaryNote": "dle zkušeností",
+    "stayLabel": "Ubytování",
+    "stayValue": "Možnost ubytování",
+    "details": "Co nabízíme a koho hledáme",
+    "offersTitle": "U nás najdete",
+    "offers": [
+      "Přátelský rodinný kolektiv",
+      "Stabilní zaměstnání",
+      "Prostor pro vlastní kreativitu a realizaci"
+    ],
+    "requiresTitle": "Co od vás očekáváme",
+    "requires": [
+      "Zkušenosti v oboru",
+      "Samostatnost a zodpovědnost",
+      "Chuť pracovat a učit se novým věcem"
+    ],
+    "call": "Ozvěte se nám",
+    "posterLink": "Otevřít celý inzerát",
+    "posterAlt": "Inzerát Slunečního Dvora: hledáme kuchaře nebo kuchařku. Podmínky a kontakt jsou uvedeny vedle obrázku."
   }
 }

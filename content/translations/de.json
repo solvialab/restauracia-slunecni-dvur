@@ -16,7 +16,9 @@
     "open": "Navigation öffnen",
     "close": "Navigation schließen",
     "skip": "Zum Inhalt springen",
-    "chooseLanguage": "Herzlich willkommen"
+    "chooseLanguage": "Herzlich willkommen",
+    "occasions": "Feiern & Übernachten",
+    "careers": "Arbeiten bei uns"
   },
   "hero": {
     "eyebrow": "MILČEVES BEI ŽATEC · RESTAURANT UND HOF",
@@ -90,16 +92,38 @@
   },
   "gallery": {
     "eyebrow": "SO SIEHT ES BEI UNS AUS",
-    "title": "Vom Tisch.\nVom Hof.",
-    "intro": "Ein bisschen aus der Küche, ein bisschen aus unserem Alltag. Vor allem aber von einem Ort, an dem wir Sie gerne begrüßen.",
-    "pageTitle": "Ein paar Einblicke",
+    "title": "Leben auf dem Hof\nSluneční Dvůr.",
+    "intro": "Was wir kochen, was gerade wächst und wie wir feiern. Kleine Einblicke in das Leben auf unserem Hof.",
+    "pageTitle": "Bei uns auf dem Hof",
     "all": "Alles",
-    "food": "Essen",
+    "food": "Auf dem Tisch",
     "restaurant": "Restaurant",
     "courtyard": "Hof und Terrasse",
     "kitchen": "Aus der Küche",
     "open": "Foto vergrößern",
-    "more": "Die ganze Galerie ansehen"
+    "more": "Die ganze Galerie ansehen",
+    "events": "Feiern & Veranstaltungen",
+    "garden": "Unser Garten",
+    "place": "Hof & Restaurant",
+    "showing": "Fotos in dieser Auswahl: {count}",
+    "groups": {
+      "food": {
+        "title": "Aus der Küche direkt auf den Tisch",
+        "text": "Etwas Herzhaftes, etwas Leichtes und ein süßer Abschluss."
+      },
+      "events": {
+        "title": "Gründe, zusammenzukommen",
+        "text": "Gedeckte Tische, Geburtstage und Momente, die in Erinnerung bleiben."
+      },
+      "garden": {
+        "title": "Was bei uns wächst",
+        "text": "Einblicke in unsere Beete, ins Gewächshaus und in frisch gefüllte Erntekisten."
+      },
+      "place": {
+        "title": "Willkommen bei uns",
+        "text": "Kommen Sie vorbei. Im Hof und drinnen lässt es sich gut verweilen."
+      }
+    }
   },
   "reservation": {
     "eyebrow": "EIN PLATZ AM TISCH FINDET SICH",
@@ -145,7 +169,18 @@
     "baking": "Frisch gebackenes Gebäck auf einem Backblech",
     "burger": "Burger und Pommes frites auf der Terrasse",
     "sign": "Hölzernes Willkommensschild des Anwesens Sluneční Dvůr",
-    "plate": "Panierte Röllchen mit Kartoffeln und Gemüse auf einem Teller"
+    "plate": "Panierte Röllchen mit Kartoffeln und Gemüse auf einem Teller",
+    "celebration": "Festlich gedeckte lange Tische im holzverkleideten Innenraum des Restaurants",
+    "birthday": "Geburtstagsfeier mit Torte und goldenen Luftballons im Restaurant",
+    "party": "Fotocollage einer Familienfeier im Garten mit Geburtstagstorten",
+    "buffet": "Gäste am Buffet bei einer Feier im Freien",
+    "partyFood": "Collage mit Speisen und Snacks für eine gemeinsame Feier",
+    "tomatoes": "Kisten mit verschiedenfarbigen Tomaten aus eigener Ernte",
+    "greenhouse": "Pflanzenreihen mit reifenden Tomaten im Gewächshaus",
+    "lettuce": "Grüner krauser Salat im Beet",
+    "cucumbers": "Frisch geerntete Gurken aus unserem Garten",
+    "kohlrabi": "Kohlrabi, der im Beet wächst",
+    "harvest": "Eine Kiste mit geernteten Auberginen und Zucchini"
   },
   "captions": {
     "courtyard": "Unser Hof",
@@ -158,6 +193,74 @@
     "baking": "Frisch aus dem Ofen",
     "burger": "Herzhaft genießen",
     "sign": "Willkommen auf dem Hof",
-    "plate": "Guten Appetit"
+    "plate": "Guten Appetit",
+    "celebration": "Festlich gedeckt",
+    "birthday": "Auf das Geburtstagskind",
+    "party": "Gemeinsam ist es am schönsten",
+    "buffet": "Feiern unter freiem Himmel",
+    "partyFood": "Für jeden etwas dabei",
+    "tomatoes": "Die Farben unserer Ernte",
+    "greenhouse": "Hier beginnt alles",
+    "lettuce": "Frisch aus dem Beet",
+    "cucumbers": "Gerade geerntet",
+    "kohlrabi": "Was bei uns wächst",
+    "harvest": "Aus dem Garten in die Küche"
+  },
+  "garden": {
+    "eyebrow": "AUS EIGENEM ANBAU",
+    "title": "Gute Küche beginnt im Beet.",
+    "text": "Tomaten, knackigen Salat, Gurken und weiteres Gemüse bauen wir direkt bei uns an. Was im Garten gerade reif ist, prägt auch unsere Küche.",
+    "more": "Ein Blick in den Garten"
+  },
+  "occasions": {
+    "eyebrow": "MEHR ALS EIN GUTES MITTAGESSEN",
+    "title": "Für die Momente,\ndie uns zusammenbringen.",
+    "intro": "Manchmal genügt ein Tisch für zwei. Manchmal möchte man die ganze Familie oder Freunde um sich haben. Bei uns ist Platz für Ihre gemeinsamen Momente.",
+    "photoCaption": "Gedeckt für Ihr Beisammensein.",
+    "celebrations": {
+      "title": "Familienfeiern",
+      "text": "Ein festliches Mittagessen oder ein Treffen mit der ganzen Familie. An einem Tisch und bei gutem Essen."
+    },
+    "birthdays": {
+      "title": "Geburtstage",
+      "text": "Kleine und große Gründe zum Feiern. Bringen Sie Ihre Liebsten mit und genießen Sie den Tag gemeinsam."
+    },
+    "events": {
+      "title": "Veranstaltungen & Treffen",
+      "text": "Ein gemütliches Treffen mit Freunden oder eine gemeinsame Veranstaltung. Ein Ort für gutes Essen und gute Gespräche."
+    },
+    "note": "Termin, Gästezahl und Ihre Wünsche besprechen wir gerne persönlich mit Ihnen.",
+    "call": "Eine Feier planen",
+    "stay": {
+      "eyebrow": "BLEIBEN SIE NOCH EIN WENIG",
+      "title": "Wie wäre es mit einer Übernachtung?",
+      "text": "Verbinden Sie Ihren Restaurantbesuch mit einem Aufenthalt auf dem Hof. Unterkünfte und Informationen zur Buchung finden Sie auf der Website von Gut Sonnenhof.",
+      "link": "Unterkünfte ansehen"
+    }
+  },
+  "careers": {
+    "eyebrow": "EINE FREIE STELLE IN UNSERER KÜCHE",
+    "title": "Wir suchen einen Koch\noder eine Köchin.",
+    "intro": "Sie lieben ehrliche Küche? Werden Sie Teil unseres Teams in Milčeves bei Žatec. Wir kochen tschechisch und international und geben Ihrer Erfahrung und Ihren eigenen Ideen Raum.",
+    "salaryLabel": "Vergütung",
+    "salaryNote": "je nach Erfahrung",
+    "stayLabel": "Unterkunft",
+    "stayValue": "Unterkunft möglich",
+    "details": "Was wir bieten und wen wir suchen",
+    "offersTitle": "Das erwartet Sie bei uns",
+    "offers": [
+      "Ein freundliches, familiäres Team",
+      "Ein sicherer Arbeitsplatz",
+      "Raum für Ihre Kreativität und eigene Ideen"
+    ],
+    "requiresTitle": "Das bringen Sie mit",
+    "requires": [
+      "Berufserfahrung in der Küche",
+      "Selbstständigkeit und Verantwortungsbewusstsein",
+      "Freude an der Arbeit und die Bereitschaft, Neues zu lernen"
+    ],
+    "call": "Melden Sie sich bei uns",
+    "posterLink": "Vollständige Stellenanzeige öffnen",
+    "posterAlt": "Stellenanzeige von Sluneční Dvůr: Wir suchen einen Koch oder eine Köchin. Angaben zur Stelle und Kontaktdaten stehen neben dem Bild."
   }
 }

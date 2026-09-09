@@ -35,7 +35,7 @@ The footer credits **Solvia Lab s.r.o.** and opens https://solvialab.tech in a n
 
 ## Editing content
 
-- `config/restaurant.ts`: phone, social profiles, address, opening hours, map links and canonical origin. Set `NEXT_PUBLIC_SITE_URL` before building for a different domain.
+- `config/restaurant.ts`: phone, social profiles, address, opening hours, map links and canonical origin. Also contains the Gut Sonnenhof accommodation link and the separate recruitment phone, salary and `careers.enabled` flag. Set that flag to `false` and rebuild when the vacancy is filled. Set `NEXT_PUBLIC_SITE_URL` before building for a different domain.
 - `content/translations/{cs,de,en,sk}.json`: navigation, page copy, metadata, accessibility labels and photo descriptions. Keep keys consistent across all four files.
 - `content/menu/data.json`: 39 dishes transcribed from the two supplied menu photographs. Localized names/descriptions, categories, weights, prices, allergens and availability stay together. `null` allergens mean not specified in the source, not allergen-free. The unusual children's cheese allergen list is preserved exactly as supplied.
 - `content/menu/index.ts`: category ordering, homepage selections and disabled daily offer. To publish a daily offer, supply all translations, actual dates and dishes, set `enabled: true`, then rebuild. Rebuild when offer content changes. Configured start and expiry dates are checked in the visitor’s browser in Europe/Prague time, including while the page remains open.
@@ -47,7 +47,9 @@ Source photographs and videos in `public/media/` are untouched. `scripts/prepare
 
 Each of `/cs`, `/de`, `/en`, `/sk` contains a homepage, `/jidelnilistek`, `/galerie`, `/soukromi` and `/cookies`. Language selection preserves the current route and anchor. Canonical URLs, hreflang, OpenGraph, Twitter metadata, sitemap and restaurant JSON-LD are generated from centralized content.
 
-Gallery filtering shows only categories present in real media. The native-modal lightbox supports arrows, Escape, touch swipes, adjacent-image preloading, scroll locking and focus restoration. The mobile menu uses a native modal focus trap. The branded opening animation appears once per tab and is disabled for reduced motion. The single scroll photograph reveal also respects reduced motion.
+The homepage presents family celebrations, birthdays and events, links to accommodation at Gut Sonnenhof, and connects the kitchen story to the restaurant's own vegetable garden. The recruitment section reproduces the supplied ad's salary and conditions as translated HTML; the full original poster remains available. The vacancy's contact is distinct from the restaurant reservation number.
+
+The gallery arranges 22 curated photographs into four consistent groups: food, celebrations, courtyard/interior and homegrown produce. The `#food`, `#events`, `#place` and `#garden` anchors open the matching selection. Collage thumbnails preserve the complete supplied image. The native-modal lightbox supports arrows, Escape, touch swipes, adjacent-image preloading, scroll locking and focus restoration. The mobile menu uses a native modal focus trap. The branded opening animation appears once per tab and is disabled for reduced motion. The single scroll photograph reveal also respects reduced motion.
 
 The terrace video downloads only after the visitor starts it and pauses when it leaves view. Google Maps loads only after an explicit click. Contact and reservation actions use the supplied phone number and social links. There is no analytics or advertising integration.
 
