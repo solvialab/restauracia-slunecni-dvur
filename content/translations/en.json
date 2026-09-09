@@ -262,5 +262,17 @@
     "call": "Get in touch",
     "posterLink": "Open the full job advert",
     "posterAlt": "Sluneční Dvůr job advert: we’re looking for a cook. Job details and contact information appear beside the image."
+  },
+  "drone": {
+    "eyebrow": "A LITTLE FLIGHT OVER OUR COURTYARD",
+    "title": "A different\npoint of view.",
+    "description": "Red roofs, an open courtyard and the countryside around Milčeves. Take a flight over the farmstead and a look inside our garden.",
+    "play": "Fly over the courtyard",
+    "videoLabel": "An aerial tour of Sluneční Dvůr and its surroundings",
+    "posterAlt": "An aerial view of the whole Sluneční Dvůr farmstead, its red roofs and surrounding fields",
+    "silent": "Silent film",
+    "error": "The video could not be loaded.",
+    "retry": "Try again",
+    "open": "Open the video separately"
   }
 }

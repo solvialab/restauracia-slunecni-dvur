@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import { useEffect, useRef, useState, useId } from "react";
-import { Sun, Arrow } from "@/components/ui/sun";
+import { Sun, Arrow, CloseIcon } from "@/components/ui/sun";
 import {
   locales,
   localeLabels,
@@ -238,7 +238,7 @@ export function Header() {
             onClick={() => setOpen(false)}
             aria-label={t("close")}
           >
-            ×
+            <CloseIcon />
           </button>
         </div>
         <nav>

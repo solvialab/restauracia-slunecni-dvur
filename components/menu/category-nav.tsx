@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import { Arrow } from "@/components/ui/sun";
 export function CategoryNav({
   categories,
   label,
@@ -34,7 +35,7 @@ export function CategoryNav({
           onClick={() => setActive(c.id)}
         >
           {c.name}
-          <span>↗</span>
+          <Arrow direction="up-right" />
         </a>
       ))}
     </nav>

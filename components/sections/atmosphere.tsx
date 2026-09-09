@@ -1,18 +1,12 @@
 import { Sun } from "@/components/ui/sun";
 import { getTranslations } from "next-intl/server";
-import { PhotoMoment } from "@/components/media/photo-moment";
+import { DroneFilm } from "@/components/media/drone-film";
 import { AtmosphereVideo } from "@/components/media/atmosphere-video";
-import { restaurantMedia } from "@/config/media";
 export async function Atmosphere() {
   const t = await getTranslations("atmosphere");
-  const m = await getTranslations("media");
   return (
     <section className="atmosphere-section">
-      <PhotoMoment
-        asset={restaurantMedia.atmosphere}
-        alt={m("interior")}
-        caption={t("caption")}
-      />
+      <DroneFilm />
       <div className="container atmosphere-content section-space">
         <div className="atmosphere-heading">
           <p className="eyebrow section-kicker">

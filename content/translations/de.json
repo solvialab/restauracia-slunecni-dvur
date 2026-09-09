@@ -262,5 +262,17 @@
     "call": "Melden Sie sich bei uns",
     "posterLink": "Vollständige Stellenanzeige öffnen",
     "posterAlt": "Stellenanzeige von Sluneční Dvůr: Wir suchen einen Koch oder eine Köchin. Angaben zur Stelle und Kontaktdaten stehen neben dem Bild."
+  },
+  "drone": {
+    "eyebrow": "EIN KLEINER FLUG ÜBER UNSEREN HOF",
+    "title": "Aus einer anderen\nPerspektive.",
+    "description": "Rote Dächer, ein offener Innenhof und die Landschaft rund um Milčeves. Fliegen Sie über den Hof und werfen Sie auch einen Blick in unseren Garten.",
+    "play": "Über den Hof fliegen",
+    "videoLabel": "Luftaufnahmen von Sluneční Dvůr und Umgebung",
+    "posterAlt": "Luftaufnahme des gesamten Hofs Sluneční Dvůr mit roten Dächern und umliegenden Feldern",
+    "silent": "Ohne Ton",
+    "error": "Das Video konnte nicht geladen werden.",
+    "retry": "Erneut versuchen",
+    "open": "Video separat öffnen"
   }
 }

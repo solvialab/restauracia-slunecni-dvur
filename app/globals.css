@@ -455,7 +455,6 @@ p {
   color: var(--red);
 }
 .close-button {
-  font: 300 42px/1 var(--sans);
   width: 48px;
   height: 48px;
   display: grid;
@@ -621,7 +620,9 @@ p {
   font-weight: 500;
 }
 .small-sun {
-  font-size: 21px;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
   color: var(--red);
 }
 .story-section {
@@ -1414,15 +1415,16 @@ address {
   justify-content: space-between;
   gap: 17px;
 }
-.category-nav a > span {
-  font-size: 15px;
+.category-nav a > svg {
+  width: 18px;
+  height: 18px;
   opacity: 0;
   flex-shrink: 0;
 }
 .category-nav a.active {
   color: var(--red);
 }
-.category-nav a.active > span {
+.category-nav a.active > svg {
   opacity: 1;
 }
 .menu-body {
@@ -1721,7 +1723,8 @@ address {
     width: 16px;
   }
   .small-sun {
-    font-size: 18px;
+    width: 20px;
+    height: 20px;
   }
   .section-space {
     padding-block: 75px;
@@ -2254,7 +2257,7 @@ address {
   .category-nav a.active {
     border-bottom: 1px solid var(--red);
   }
-  .category-nav a > span {
+  .category-nav a > svg {
     display: none;
   }
   .menu-category {
@@ -2688,7 +2691,11 @@ html[data-intro="true"] .header {
 }
 .occasion-mark {
   color: var(--gold);
-  font-size: 17px;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  align-self: flex-start;
+  margin-top: 8px;
 }
 .occasion-row h3 {
   font-size: clamp(28px, 2.6vw, 37px);
@@ -3258,5 +3265,165 @@ html[data-intro="true"] .header {
   }
   .gallery-preview-tiles .gallery-item:first-child {
     grid-column: auto;
+  }
+}
+.drone-film {
+  padding-top: 55px;
+  background: #302b22;
+  color: var(--cream);
+}
+.drone-stage {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  background: #201d18;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.drone-stage video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.drone-start {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  color: var(--cream);
+}
+.drone-start:focus-visible {
+  outline-offset: -6px;
+}
+.drone-start img {
+  object-fit: cover;
+}
+.drone-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(21, 24, 15, 0.03),
+    rgba(21, 24, 15, 0.3)
+  );
+}
+.drone-play-badge {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  font-size: 18px;
+  font-weight: 500;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.8);
+}
+.drone-play-circle {
+  width: 88px;
+  height: 88px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--cream);
+  color: var(--wood);
+  box-shadow: 0 0 0 9px rgba(243, 235, 221, 0.2);
+  transition:
+    transform 0.3s var(--ease),
+    box-shadow 0.3s;
+}
+.drone-play-circle svg {
+  width: 32px;
+  height: 32px;
+}
+.drone-start:hover .drone-play-circle,
+.drone-start:focus-visible .drone-play-circle {
+  transform: scale(1.07);
+  box-shadow: 0 0 0 14px rgba(243, 235, 221, 0.15);
+}
+.drone-location {
+  position: absolute;
+  left: 28px;
+  bottom: 23px;
+  font-size: 12px;
+  letter-spacing: 0.15em;
+}
+.drone-caption {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 28px 70px;
+  align-items: center;
+  padding-block: 40px 50px;
+}
+.drone-caption .eyebrow {
+  color: #dfbf80;
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+.drone-caption h2 {
+  font-size: clamp(38px, 4.2vw, 60px);
+  white-space: pre-line;
+}
+.drone-caption-copy p {
+  color: #e3ddce;
+  max-width: 400px;
+  font-size: 18px;
+}
+.drone-duration {
+  display: block;
+  font-size: 14px;
+  margin-top: 18px;
+  color: #dfbf80;
+}
+.drone-error {
+  grid-column: 1 / -1;
+  font-size: 16px;
+}
+.drone-error a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+@media (max-width: 760px) {
+  .drone-film {
+    padding-top: 0;
+  }
+  .drone-film > .container {
+    width: 100%;
+  }
+  .drone-stage {
+    border-radius: 0;
+  }
+  .drone-play-circle {
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 0 0 6px rgba(243, 235, 221, 0.2);
+  }
+  .drone-play-circle svg {
+    width: 26px;
+    height: 26px;
+  }
+  .drone-play-badge {
+    font-size: 16px;
+    gap: 13px;
+  }
+  .drone-location {
+    display: none;
+  }
+  .drone-caption {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+    padding: 30px 20px 37px;
+  }
+  .drone-caption h2 {
+    font-size: 42px;
+  }
+  .drone-caption-copy p {
+    font-size: 17px;
+    max-width: none;
+  }
+  .drone-caption .eyebrow {
+    font-size: 11px;
   }
 }

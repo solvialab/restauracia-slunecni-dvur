@@ -43,15 +43,17 @@ The footer credits **Solvia Lab s.r.o.** and opens https://solvialab.tech in a n
 
 Source photographs and videos in `public/media/` are untouched. `scripts/prepare-media.mjs` creates WebP variants at six widths. A custom `next/image` loader selects these variants so image optimization works on a static host. Re-run preparation after adding photography; the build does this automatically. The evening-video poster is a frame extracted from the supplied clip. No generated or external stock photographs are used.
 
+The supplied drone master `public/media/upravene.mp4` stays unchanged locally (272 MB) and is excluded from Git. The web uses silent 1080p and 720p H.264 copies, gently accelerated to 1.2× (91 seconds), plus a real frame at source 51 seconds as its poster. Both videos have `faststart` metadata and remain below the static host's per-file limit. `scripts/finalize-export.mjs` removes only the generated export's copy of the large master; always deploy the result of `pnpm build`. The smaller original-free Git checkout builds normally without the master or FFmpeg.
+
 ## Routes and interactions
 
 Each of `/cs`, `/de`, `/en`, `/sk` contains a homepage, `/jidelnilistek`, `/galerie`, `/soukromi` and `/cookies`. Language selection preserves the current route and anchor. Canonical URLs, hreflang, OpenGraph, Twitter metadata, sitemap and restaurant JSON-LD are generated from centralized content.
 
 The homepage presents family celebrations, birthdays and events, links to accommodation at Gut Sonnenhof, and connects the kitchen story to the restaurant's own vegetable garden. The recruitment section reproduces the supplied ad's salary and conditions as translated HTML; the full original poster remains available. The vacancy's contact is distinct from the restaurant reservation number.
 
-The gallery arranges 22 curated photographs into four consistent groups: food, celebrations, courtyard/interior and homegrown produce. The `#food`, `#events`, `#place` and `#garden` anchors open the matching selection. Collage thumbnails preserve the complete supplied image. The native-modal lightbox supports arrows, Escape, touch swipes, adjacent-image preloading, scroll locking and focus restoration. The mobile menu uses a native modal focus trap. The branded opening animation appears once per tab and is disabled for reduced motion. The single scroll photograph reveal also respects reduced motion.
+The gallery arranges 22 curated photographs into four consistent groups: food, celebrations, courtyard/interior and homegrown produce. The `#food`, `#events`, `#place` and `#garden` anchors open the matching selection. Collage thumbnails preserve the complete supplied image. The native-modal lightbox supports arrows, Escape, touch swipes, adjacent-image preloading, scroll locking and focus restoration. The mobile menu uses a native modal focus trap. The branded opening animation appears once per tab and is disabled for reduced motion. Decorative suns, arrows and close controls use SVG instead of OS-dependent text glyphs.
 
-The terrace video downloads only after the visitor starts it and pauses when it leaves view. Google Maps loads only after an explicit click. Contact and reservation actions use the supplied phone number and social links. There is no analytics or advertising integration.
+The aerial film introduces the atmosphere section. It loads only after activation, selects the 720p version on viewports up to 900px, preserves the complete 16:9 frame and uses native controls with inline iPhone playback. It pauses offscreen or in a hidden tab, with retry and direct-file fallback on load failure. The terrace video also downloads only after the visitor starts it and pauses when it leaves view. Google Maps loads only after an explicit click. Contact and reservation actions use the supplied phone number and social links. There is no analytics or advertising integration.
 
 ## Content limitations
 

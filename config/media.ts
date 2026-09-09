@@ -120,6 +120,14 @@ const newMedia = {
 };
 export const restaurantMedia = {
   ...newMedia,
+  drone: {
+    src: "/media/drone-1080.mp4",
+    mobileSrc: "/media/drone-720.mp4",
+    poster: "/media/drone-courtyard.jpg",
+    width: 1920,
+    height: 1080,
+    duration: "1:31",
+  },
   careers: { src: "/media/hladame-kuchara.jpg", width: 1149, height: 1369 },
   hero: {
     ...media(

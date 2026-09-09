@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --hostname 0.0.0.0",
-    "build": "node scripts/prepare-media.mjs && next build",
+    "build": "node scripts/prepare-media.mjs && next build && node scripts/finalize-export.mjs",
     "start": "node scripts/serve-static.mjs",
     "typecheck": "tsc --noEmit",
     "validate": "node scripts/validate-build.mjs"

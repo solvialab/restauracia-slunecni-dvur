@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getLocale, getTranslations } from "next-intl/server";
 import { restaurantMedia } from "@/config/media";
 import { restaurantConfig } from "@/config/restaurant";
-import { Arrow } from "@/components/ui/sun";
+import { Arrow, Sun } from "@/components/ui/sun";
 import type { CSSProperties } from "react";
 import { openingHours } from "@/lib/opening-hours";
 import type { Locale } from "@/i18n/routing";
@@ -75,9 +75,7 @@ export async function Hero() {
             {restaurantConfig.address.street}, {restaurantConfig.address.city}
           </span>
           <span className="welcome-hours">
-            <span className="small-sun" aria-hidden="true">
-              ✳
-            </span>
+            <Sun className="small-sun" />
             {hours.openDays}
             <b>{hours.time}</b>
           </span>

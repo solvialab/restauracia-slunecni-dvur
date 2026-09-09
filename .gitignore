@@ -7,3 +7,5 @@ out/
 test-results/
 playwright-report/
 .openai/deploy-artifact.zip
+# Local drone master; the optimized web copies are versioned instead.
+/public/media/upravene.mp4

@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Arrow } from "@/components/ui/sun";
+import { Arrow, CloseIcon } from "@/components/ui/sun";
 import type { MediaItem } from "@/config/media";
 import imageLoader from "@/lib/image-loader";
 import { trapDialogTab } from "@/components/ui/dialog-focus";
@@ -74,7 +74,7 @@ export default function Lightbox({
           onClick={onClose}
           aria-label={t("close")}
         >
-          ×
+          <CloseIcon />
         </button>
       </div>
       <button

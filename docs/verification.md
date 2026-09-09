@@ -25,3 +25,10 @@ Menu source notes: original photos do not give an effective date or all portion/
 - The gallery contains 22 unique photographs in four groups: food (6), events (5), place (5) and garden (6). Original assets, translated alt text and short captions exist for every entry. Supplied collages use contained thumbnails.
 - Reviewed all 20 newly supplied photographs and the recruitment poster. The poster's contact is 775 843 850; restaurant reservations remain +420 733 467 922. No pay period or gross/net salary claim was inferred.
 - Source review confirms that gallery filtering and modal indexing use the same ordered list, category hashes open matching selections, and new content has responsive styles. This extension has not had a new browser interaction or visual test pass.
+
+## SVG icons and aerial film — 9 September 2026
+
+- Replaced text suns, menu arrows and close glyphs with decorative SVGs. Export checks verify the SVG suns in all four homepages and the absence of the replaced glyphs. Small icons have explicit dimensions and do not shrink; close buttons retain their 48px touch areas and translated labels.
+- The supplied drone master is unchanged at 272,196,652 bytes. Both web copies are 91 seconds at 1.2×, silent H.264 Main/yuv420p/30fps with faststart. Full decoding and representative frame checks passed; 1080p is 20,262,834 bytes and 720p is 11,189,646 bytes.
+- Production compilation, TypeScript and all 20-page export checks pass. Homepages include the localized film cover and no initial video element. The generated export excludes the large local master and includes both web copies.
+- Source review covers activation-only loading, responsive source selection, native controls with playsInline, offscreen/hidden-tab pausing and retry/fallback behavior. Physical iPhone playback was not tested.

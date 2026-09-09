@@ -7,6 +7,7 @@ export function Sun({ className = "" }: { className?: string }) {
       viewBox="0 0 48 48"
       fill="none"
       aria-hidden="true"
+      focusable="false"
     >
       <circle cx="24" cy="24" r="8" stroke="currentColor" strokeWidth="1.4" />
       {Array.from({ length: 12 }, (_, i) => (
@@ -30,6 +31,7 @@ export function Arrow({
   return (
     <svg
       aria-hidden="true"
+      focusable="false"
       width="20"
       height="20"
       viewBox="0 0 24 24"
@@ -44,6 +46,41 @@ export function Arrow({
           strokeWidth="1.4"
         />
       </g>
+    </svg>
+  );
+}
+
+export function CloseIcon() {
+  return (
+    <svg
+      aria-hidden="true"
+      focusable="false"
+      width="28"
+      height="28"
+      viewBox="0 0 24 24"
+      fill="none"
+    >
+      <path
+        d="m6 6 12 12M6 18 18 6"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+      />
+    </svg>
+  );
+}
+
+export function PlayIcon() {
+  return (
+    <svg
+      aria-hidden="true"
+      focusable="false"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+    >
+      <path d="m8 5 11 7-11 7Z" fill="currentColor" />
     </svg>
   );
 }

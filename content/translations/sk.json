@@ -262,5 +262,17 @@
     "call": "Ozvite sa nám",
     "posterLink": "Otvoriť celý inzerát",
     "posterAlt": "Inzerát reštaurácie Sluneční Dvůr: hľadáme kuchára alebo kuchárku. Podmienky a kontakt sú uvedené vedľa obrázka."
+  },
+  "drone": {
+    "eyebrow": "MALÝ LET NAD NAŠÍM DVOROM",
+    "title": "Z trochu inej\nperspektívy.",
+    "description": "Červené strechy, otvorený dvor a krajina okolo Milčevsi. Preleťte sa nad usadlosťou a nahliadnite aj do našej záhrady.",
+    "play": "Preletieť sa nad dvorom",
+    "videoLabel": "Letecká prehliadka Slunečního Dvora a okolia",
+    "posterAlt": "Letecký pohľad na celý Sluneční Dvůr s červenými strechami a okolitými poľami",
+    "silent": "Bez zvuku",
+    "error": "Video sa nepodarilo načítať.",
+    "retry": "Skúsiť znova",
+    "open": "Otvoriť video samostatne"
   }
 }

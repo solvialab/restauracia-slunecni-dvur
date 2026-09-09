@@ -32,9 +32,7 @@ export async function Occasions() {
             <div className="occasion-list">
               {(["celebrations", "birthdays", "events"] as const).map((key) => (
                 <div className="occasion-row" key={key}>
-                  <span className="occasion-mark" aria-hidden="true">
-                    ✳
-                  </span>
+                  <Sun className="occasion-mark" />
                   <div>
                     <h3>{t(`${key}.title`)}</h3>
                     <p>{t(`${key}.text`)}</p>
