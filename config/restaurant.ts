@@ -21,8 +21,8 @@ export const restaurantConfig = {
     "https://slunecni-dvur.devstoresk.chatgpt.site",
   openingHours: {
     days: ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-    opens: "10:00",
-    closes: "20:00",
+    opens: "12:00",
+    closes: "21:00",
   },
   menuSources: ["/media/jedalny-listok-1.jpg", "/media/jedalny-listok-2.jpg"],
   creator: { name: "Solvia Lab s.r.o.", url: "https://solvialab.tech" },
