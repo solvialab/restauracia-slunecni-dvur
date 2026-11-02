@@ -6,7 +6,7 @@ const routes = ["", "jidelnilistek/", "galerie/", "soukromi/", "cookies/"];
 let checked = 0;
 const origin =
   process.env.NEXT_PUBLIC_SITE_URL ||
-  "https://slunecni-dvur.devstoresk.chatgpt.site";
+  "https://usedlostslunecnidvurestauracia.cz";
 const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
 for (const locale of locales) {
   for (const route of routes) {

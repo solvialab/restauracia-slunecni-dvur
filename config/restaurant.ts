@@ -18,7 +18,7 @@ export const restaurantConfig = {
     "https://maps.google.com/maps?q=Usedlost%20Slune%C4%8Dn%C3%AD%20dv%C5%AFr%20Mil%C4%8Deves%2055&t=&z=14&ie=UTF8&iwloc=&output=embed",
   url:
     process.env.NEXT_PUBLIC_SITE_URL ||
-    "https://slunecni-dvur.devstoresk.chatgpt.site",
+    "https://usedlostslunecnidvurestauracia.cz",
   openingHours: {
     days: ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
     opens: "12:00",

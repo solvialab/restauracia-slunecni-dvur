@@ -23,13 +23,13 @@ The production build is a portable static export in `out/`. Deploy that director
 
 `pnpm start` serves the production export locally on port 3001, including byte-range support for video. Set `NEXT_PUBLIC_BASE_PATH` when previewing a build made for a subdirectory.
 
-## GitHub Pages
+## Vercel
 
 Public source: https://github.com/solvialab/restauracia-slunecni-dvur
 
-Website: https://solvialab.github.io/restauracia-slunecni-dvur/
+Website: https://usedlostslunecnidvurestauracia.cz/ (`www.` redirects to the bare domain)
 
-`.github/workflows/deploy.yml` builds, validates and deploys the site on every push to `main`. GitHub Pages must use **GitHub Actions** as its publishing source. The workflow sets the canonical origin and `/restauracia-slunecni-dvur` base path; images, video, source-menu links, metadata and locale navigation all support this subdirectory. Do not set a custom domain in the workflow unless configuring the corresponding domain in Pages.
+Vercel builds every push to `main` from the connected GitHub repository and deploys it to production; other branches get preview URLs. `vercel.json` runs `pnpm build && pnpm validate`, serves the static export in `out/` and redirects `/` to `/cs/`. The canonical origin defaults to the production domain, so no environment variables are needed. The domain's DNS is managed at GoDaddy and points to Vercel.
 
 The footer credits **Solvia Lab s.r.o.** and opens https://solvialab.tech in a new tab. Gallery captions are short, while image alternative text remains descriptive for accessibility.
 
