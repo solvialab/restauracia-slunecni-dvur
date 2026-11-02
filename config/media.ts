@@ -31,6 +31,14 @@ const media = (
   position,
 });
 const newMedia = {
+  slovakTrio: media(
+    "slovakTrio",
+    "slovenske-speciality",
+    1397,
+    2000,
+    "food",
+    "50% 50%",
+  ),
   celebration: media(
     "celebration",
     "780672418_122106807476454936_6321443673107664659_n",
@@ -148,14 +156,6 @@ export const restaurantMedia = {
     "food",
     "50% 48%",
   ),
-  detail: media(
-    "salad",
-    "773339188_122106252626454936_7664757541684157180_n",
-    1536,
-    2048,
-    "food",
-    "50% 52%",
-  ),
   atmosphere: media(
     "interior",
     "679001296_26557387953870224_8015287232511464463_n",
@@ -250,5 +250,13 @@ export const restaurantMedia = {
     poster: "/media/terrace-evening.jpg",
     width: 720,
     height: 1280,
+    duration: "0:12",
+  },
+  kitchenVideo: {
+    src: "/media/z-kuchyne.mp4",
+    poster: "/media/z-kuchyne-poster.jpg",
+    width: 576,
+    height: 1024,
+    duration: "0:08",
   },
 };

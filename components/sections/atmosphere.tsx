@@ -1,7 +1,7 @@
 import { Sun } from "@/components/ui/sun";
 import { getTranslations } from "next-intl/server";
 import { DroneFilm } from "@/components/media/drone-film";
-import { AtmosphereVideo } from "@/components/media/atmosphere-video";
+import { PortraitVideo } from "@/components/media/portrait-video";
 export async function Atmosphere() {
   const t = await getTranslations("atmosphere");
   return (
@@ -16,7 +16,7 @@ export async function Atmosphere() {
           <h2>{t("title")}</h2>
           <p>{t("text")}</p>
         </div>
-        <AtmosphereVideo />
+        <PortraitVideo clip="video" namespace="atmosphere" />
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Sluneční Dvůr — poctivá kuchyňa v Milčevsi",
-    "description": "Na poriadny obed aj večer s priateľmi. Reštaurácia Sluneční Dvůr, Milčeves 55 pri Žatci. Jedálny lístok, fotografie a rezervácie.",
+    "description": "Na poriadny obed, večer s priateľmi aj svadbu či rodinnú oslavu. Reštaurácia Sluneční Dvůr, Milčeves 55 pri Žatci. Jedálny lístok, fotografie a rezervácie.",
     "menuTitle": "Jedálny lístok | Sluneční Dvůr",
     "galleryTitle": "Fotografie z dvora | Sluneční Dvůr"
   },
@@ -17,7 +17,7 @@
     "close": "Zavrieť navigáciu",
     "skip": "Prejsť na obsah",
     "chooseLanguage": "U nás ste vítaní",
-    "occasions": "Oslavy a pobyt",
+    "occasions": "Svadby a oslavy",
     "careers": "Práca u nás"
   },
   "hero": {
@@ -78,7 +78,10 @@
       "Oxid siričitý a siričitany",
       "Vlčí bôb",
       "Mäkkýše"
-    ]
+    ],
+    "play": "Čerstvo z našej kuchyne",
+    "videoLabel": "Stôl plný jedál z našej kuchyne",
+    "videoText": "Čo u nás práve putuje na stôl. 8 sekúnd z našej kuchyne."
   },
   "atmosphere": {
     "eyebrow": "CHVÍLE VO DVORE",
@@ -159,6 +162,7 @@
     "cookiesText": "Samotný web neukladá analytické ani reklamné cookies. V pamäti aktuálnej karty si uchováva iba informáciu o už zobrazenej úvodnej animácii. Hostingová služba môže používať nevyhnutné cookies na prístup k neverejnému náhľadu."
   },
   "media": {
+    "slovakTrio": "Bryndzové halušky, bryndzové pirohy a strapačky v drevených miskách v tvare srdca",
     "courtyard": "Pohľad na budovy a dvor reštaurácie Sluneční Dvůr",
     "platedDish": "Servírované jedlo s kašou a omáčkou na bielom tanieri",
     "salad": "Farebný šalát s opečeným syrom na bielom tanieri",
@@ -183,6 +187,7 @@
     "harvest": "Debnička zozbieraných baklažánov a cukiet"
   },
   "captions": {
+    "slovakTrio": "Slovenské špeciality",
     "courtyard": "Náš dvor",
     "platedDish": "Z našej kuchyne",
     "salad": "Niečo ľahšie",
@@ -215,8 +220,12 @@
   "occasions": {
     "eyebrow": "VIAC NEŽ LEN DOBRÝ OBED",
     "title": "Pre všetky chvíle,\nktoré nás spájajú.",
-    "intro": "Niekedy stačí stôl pre dvoch. Inokedy chcete mať okolo seba celú rodinu alebo priateľov. U nás je miesto aj pre vaše spoločné chvíle.",
+    "intro": "Niekedy stačí stôl pre dvoch. Inokedy chcete mať okolo seba celú rodinu alebo priateľov. U nás je miesto aj pre vaše spoločné chvíle – vrátane tej najväčšej, vašej svadby.",
     "photoCaption": "Prestreté pre vaše stretnutie.",
+    "weddings": {
+      "title": "Svadby",
+      "text": "Organizujeme aj svadby. Svadobnú hostinu s poctivou domácou kuchyňou a slávnostne prestreté stoly pripravíme podľa vašich predstáv."
+    },
     "celebrations": {
       "title": "Rodinné oslavy",
       "text": "Slávnostný obed aj stretnutie celej rodiny. Pri jednom stole a s dobrým jedlom."
@@ -230,7 +239,7 @@
       "text": "Posedenie s priateľmi aj spoločné podujatie. Miesto, kde sa dobre je a rozpráva."
     },
     "note": "Termín, počet hostí a vaše predstavy s vami radi preberieme osobne.",
-    "call": "Dohodnúť oslavu",
+    "call": "Dohodnúť svadbu alebo oslavu",
     "stay": {
       "eyebrow": "ZOSTAŇTE O CHVÍĽU DLHŠIE",
       "title": "A čo tak prespať?",

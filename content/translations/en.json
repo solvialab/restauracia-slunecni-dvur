@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Sluneční Dvůr — honest cooking in Milčeves",
-    "description": "For a hearty lunch or an evening with friends. Sluneční Dvůr restaurant, Milčeves 55 near Žatec. Menu, photos and reservations.",
+    "description": "For a hearty lunch, an evening with friends, a wedding or a family celebration. Sluneční Dvůr restaurant, Milčeves 55 near Žatec. Menu, photos and reservations.",
     "menuTitle": "Menu | Sluneční Dvůr",
     "galleryTitle": "Photos from the courtyard | Sluneční Dvůr"
   },
@@ -17,7 +17,7 @@
     "close": "Close navigation",
     "skip": "Skip to content",
     "chooseLanguage": "Make yourself at home",
-    "occasions": "Celebrations & stays",
+    "occasions": "Weddings & celebrations",
     "careers": "Join our team"
   },
   "hero": {
@@ -78,7 +78,10 @@
       "Sulphur dioxide and sulphites",
       "Lupin",
       "Molluscs"
-    ]
+    ],
+    "play": "Fresh from our kitchen",
+    "videoLabel": "A table full of dishes from our kitchen",
+    "videoText": "What’s on its way to the table right now. 8 seconds from our kitchen."
   },
   "atmosphere": {
     "eyebrow": "MOMENTS IN THE COURTYARD",
@@ -159,6 +162,7 @@
     "cookiesText": "The website itself does not store analytics or advertising cookies. It only keeps a record in the current tab’s memory of whether the opening animation has already been shown. The hosting service may use essential cookies to provide access to a private preview."
   },
   "media": {
+    "slovakTrio": "Halušky with bryndza cheese, bryndza pirohy and halušky with sauerkraut in heart-shaped wooden bowls",
     "courtyard": "View of the buildings and courtyard at Sluneční Dvůr",
     "platedDish": "A meal with mash and sauce served on a white plate",
     "salad": "Colourful salad with fried cheese on a white plate",
@@ -183,6 +187,7 @@
     "harvest": "A crate of freshly harvested aubergines and courgettes"
   },
   "captions": {
+    "slovakTrio": "Slovak specialities",
     "courtyard": "Our courtyard",
     "platedDish": "From our kitchen",
     "salad": "Something lighter",
@@ -215,8 +220,12 @@
   "occasions": {
     "eyebrow": "MORE THAN A GOOD LUNCH",
     "title": "For all the moments\nthat bring us together.",
-    "intro": "Sometimes all you need is a table for two. Other times, you want the whole family or your friends around you. There’s room here for those shared moments, too.",
+    "intro": "Sometimes all you need is a table for two. Other times, you want the whole family or your friends around you. There’s room here for those shared moments, too – including the biggest one, your wedding.",
     "photoCaption": "The table is set for your gathering.",
+    "weddings": {
+      "title": "Weddings",
+      "text": "We host weddings, too. We’ll prepare the wedding feast with honest home cooking and festively set tables, just the way you imagine it."
+    },
     "celebrations": {
       "title": "Family celebrations",
       "text": "A special lunch or a gathering for the whole family. Together at one table, with good food."
@@ -230,7 +239,7 @@
       "text": "A catch-up with friends or a group event. A place for good food and good conversation."
     },
     "note": "We’ll be happy to discuss the date, number of guests and your ideas in person.",
-    "call": "Plan your celebration",
+    "call": "Plan a wedding or celebration",
     "stay": {
       "eyebrow": "STAY A LITTLE LONGER",
       "title": "Why not stay the night?",

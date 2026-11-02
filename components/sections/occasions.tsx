@@ -30,8 +30,14 @@ export async function Occasions() {
           </figure>
           <div className="occasions-copy">
             <div className="occasion-list">
-              {(["celebrations", "birthdays", "events"] as const).map((key) => (
-                <div className="occasion-row" key={key}>
+              {(
+                ["weddings", "celebrations", "birthdays", "events"] as const
+              ).map((key) => (
+                <div
+                  className="occasion-row"
+                  key={key}
+                  id={key === "weddings" ? "svatby" : undefined}
+                >
                   <Sun className="occasion-mark" />
                   <div>
                     <h3>{t(`${key}.title`)}</h3>

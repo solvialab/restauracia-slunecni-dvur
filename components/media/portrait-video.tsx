@@ -4,8 +4,15 @@ import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { restaurantMedia } from "@/config/media";
-export function AtmosphereVideo() {
-  const t = useTranslations("atmosphere");
+export function PortraitVideo({
+  clip,
+  namespace,
+}: {
+  clip: "video" | "kitchenVideo";
+  namespace: "atmosphere" | "menu";
+}) {
+  const t = useTranslations(namespace);
+  const source = restaurantMedia[clip];
   const [playing, setPlaying] = useState(false);
   const video = useRef<HTMLVideoElement>(null);
   const wrap = useRef<HTMLDivElement>(null);
@@ -28,15 +35,15 @@ export function AtmosphereVideo() {
           <video
             ref={video}
             tabIndex={0}
-            src={assetPath(restaurantMedia.video.src)}
-            poster={assetPath(restaurantMedia.video.poster)}
+            src={assetPath(source.src)}
+            poster={assetPath(source.poster)}
             controls
             playsInline
             muted
             autoPlay
             preload="none"
-            width={720}
-            height={1280}
+            width={source.width}
+            height={source.height}
             aria-label={t("videoLabel")}
           />
         ) : (
@@ -46,7 +53,7 @@ export function AtmosphereVideo() {
             aria-label={t("play")}
           >
             <Image
-              src={restaurantMedia.video.poster}
+              src={source.poster}
               alt={t("videoLabel")}
               fill
               sizes="(max-width:760px) 45vw, 260px"
@@ -65,7 +72,7 @@ export function AtmosphereVideo() {
         )}
       </div>
       <div className="video-copy">
-        <span className="eyebrow">MILČEVES · 0:12</span>
+        <span className="eyebrow">MILČEVES · {source.duration}</span>
         <p>{t("play")}</p>
         <small>{t("videoText")}</small>
       </div>

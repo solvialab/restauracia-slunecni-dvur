@@ -3,6 +3,7 @@ import { getLocale, getTranslations } from "next-intl/server";
 import { featuredItems } from "@/content/menu";
 import { MenuRow } from "./menu-row";
 import { Sun, Arrow } from "@/components/ui/sun";
+import { PortraitVideo } from "@/components/media/portrait-video";
 import type { Locale } from "@/i18n/routing";
 export async function MenuPreview() {
   const t = await getTranslations("menu");
@@ -22,7 +23,9 @@ export async function MenuPreview() {
             {c("fullMenu")}
             <Arrow />
           </Link>
-          <Sun className="menu-sun" />
+          <div className="menu-video">
+            <PortraitVideo clip="kitchenVideo" namespace="menu" />
+          </div>
         </div>
         <div className="menu-preview-paper">
           <div className="menu-paper-top">

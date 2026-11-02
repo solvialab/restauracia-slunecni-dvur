@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Sluneční Dvůr — poctivá kuchyně v Milčevsi",
-    "description": "Na pořádný oběd i večer s přáteli. Restaurace Sluneční Dvůr, Milčeves 55 u Žatce. Jídelní lístek, fotografie a rezervace.",
+    "description": "Na pořádný oběd, večer s přáteli i svatbu nebo rodinnou oslavu. Restaurace Sluneční Dvůr, Milčeves 55 u Žatce. Jídelní lístek, fotografie a rezervace.",
     "menuTitle": "Jídelní lístek | Sluneční Dvůr",
     "galleryTitle": "Fotografie ze dvora | Sluneční Dvůr"
   },
@@ -17,7 +17,7 @@
     "close": "Zavřít navigaci",
     "skip": "Přejít na obsah",
     "chooseLanguage": "U nás jste vítáni",
-    "occasions": "Oslavy a pobyt",
+    "occasions": "Svatby a oslavy",
     "careers": "Práce u nás"
   },
   "hero": {
@@ -78,7 +78,10 @@
       "Oxid siřičitý a siřičitany",
       "Vlčí bob",
       "Měkkýši"
-    ]
+    ],
+    "play": "Čerstvě z naší kuchyně",
+    "videoLabel": "Stůl plný jídel z naší kuchyně",
+    "videoText": "Co u nás právě míří na stůl. 8 vteřin z naší kuchyně."
   },
   "atmosphere": {
     "eyebrow": "CHVÍLE VE DVOŘE",
@@ -159,6 +162,7 @@
     "cookiesText": "Samotný web neukládá analytické ani reklamní cookies. V paměti aktuální karty si uchovává pouze informaci o již zobrazené úvodní animaci. Hostitelská služba může používat nezbytné cookies pro přístup k neveřejnému náhledu."
   },
   "media": {
+    "slovakTrio": "Bryndzové halušky, bryndzové pirohy a halušky se zelím ve dřevěných miskách ve tvaru srdce",
     "courtyard": "Pohled na budovy a dvůr Slunečního Dvora",
     "platedDish": "Servírované jídlo s kaší a omáčkou na bílém talíři",
     "salad": "Barevný salát s opečeným sýrem na bílém talíři",
@@ -183,6 +187,7 @@
     "harvest": "Bedýnka sklizených lilků a cuket"
   },
   "captions": {
+    "slovakTrio": "Slovenské speciality",
     "courtyard": "Náš dvůr",
     "platedDish": "Z naší kuchyně",
     "salad": "Něco lehčího",
@@ -215,8 +220,12 @@
   "occasions": {
     "eyebrow": "VÍC NEŽ JEN DOBRÝ OBĚD",
     "title": "Na všechny chvíle,\nkteré patří k sobě.",
-    "intro": "Někdy stačí stůl pro dva. Jindy chcete mít kolem sebe celou rodinu nebo přátele. U nás je místo i pro vaše společné chvíle.",
+    "intro": "Někdy stačí stůl pro dva. Jindy chcete mít kolem sebe celou rodinu nebo přátele. U nás je místo i pro vaše společné chvíle – včetně té největší, vaší svatby.",
     "photoCaption": "Prostřeno pro vaše setkání.",
+    "weddings": {
+      "title": "Svatby",
+      "text": "Pořádáme i svatby. Svatební hostinu s poctivou domácí kuchyní a slavnostně prostřené stoly připravíme podle vašich představ."
+    },
     "celebrations": {
       "title": "Rodinné oslavy",
       "text": "Slavnostní oběd i setkání celé rodiny. U jednoho stolu a s dobrým jídlem."
@@ -230,7 +239,7 @@
       "text": "Posezení s přáteli i společná akce. Prostor, kde se dobře jí a povídá."
     },
     "note": "Termín, počet hostů a vaše představy s vámi rádi domluvíme osobně.",
-    "call": "Domluvit oslavu",
+    "call": "Domluvit svatbu nebo oslavu",
     "stay": {
       "eyebrow": "ZŮSTAŇTE O CHVÍLI DÉLE",
       "title": "A co takhle přespat?",

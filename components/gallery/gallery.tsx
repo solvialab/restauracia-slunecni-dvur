@@ -40,7 +40,7 @@ export function Gallery({ preview = false }: { preview?: boolean }) {
   const all: MediaItem[] = preview
     ? [
         restaurantMedia.celebration,
-        restaurantMedia.detail,
+        restaurantMedia.slovakTrio,
         restaurantMedia.greenhouse,
       ]
     : categories.flatMap((category) =>

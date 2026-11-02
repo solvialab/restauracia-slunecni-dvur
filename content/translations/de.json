@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Sluneční Dvůr — ehrliche Küche in Milčeves",
-    "description": "Für ein gutes Mittagessen oder einen Abend mit Freunden. Restaurant Sluneční Dvůr, Milčeves 55 bei Žatec. Speisekarte, Fotos und Reservierung.",
+    "description": "Für ein gutes Mittagessen, einen Abend mit Freunden, eine Hochzeit oder Familienfeier. Restaurant Sluneční Dvůr, Milčeves 55 bei Žatec. Speisekarte, Fotos und Reservierung.",
     "menuTitle": "Speisekarte | Sluneční Dvůr",
     "galleryTitle": "Bilder vom Hof | Sluneční Dvůr"
   },
@@ -17,7 +17,7 @@
     "close": "Navigation schließen",
     "skip": "Zum Inhalt springen",
     "chooseLanguage": "Herzlich willkommen",
-    "occasions": "Feiern & Übernachten",
+    "occasions": "Hochzeiten & Feiern",
     "careers": "Arbeiten bei uns"
   },
   "hero": {
@@ -78,7 +78,10 @@
       "Schwefeldioxid und Sulfite",
       "Lupinen",
       "Weichtiere"
-    ]
+    ],
+    "play": "Frisch aus unserer Küche",
+    "videoLabel": "Ein Tisch voller Gerichte aus unserer Küche",
+    "videoText": "Was bei uns gerade auf den Tisch kommt. 8 Sekunden aus unserer Küche."
   },
   "atmosphere": {
     "eyebrow": "AUGENBLICKE AUF DEM HOF",
@@ -159,6 +162,7 @@
     "cookiesText": "Die Website selbst speichert keine Analyse- oder Werbecookies. Im Speicher des aktuellen Tabs wird lediglich festgehalten, ob die Startanimation bereits angezeigt wurde. Der Hosting-Dienst kann notwendige Cookies für den Zugriff auf eine nicht öffentliche Vorschau verwenden."
   },
   "media": {
+    "slovakTrio": "Halušky mit Bryndza, Bryndza-Pirohy und Halušky mit Kraut in herzförmigen Holzschalen",
     "courtyard": "Blick auf die Gebäude und den Hof des Sluneční Dvůr",
     "platedDish": "Ein Gericht mit Püree und Sauce auf einem weißen Teller",
     "salad": "Bunter Salat mit gebratenem Käse auf einem weißen Teller",
@@ -183,6 +187,7 @@
     "harvest": "Eine Kiste mit geernteten Auberginen und Zucchini"
   },
   "captions": {
+    "slovakTrio": "Slowakische Spezialitäten",
     "courtyard": "Unser Hof",
     "platedDish": "Aus unserer Küche",
     "salad": "Etwas Leichtes",
@@ -215,8 +220,12 @@
   "occasions": {
     "eyebrow": "MEHR ALS EIN GUTES MITTAGESSEN",
     "title": "Für die Momente,\ndie uns zusammenbringen.",
-    "intro": "Manchmal genügt ein Tisch für zwei. Manchmal möchte man die ganze Familie oder Freunde um sich haben. Bei uns ist Platz für Ihre gemeinsamen Momente.",
+    "intro": "Manchmal genügt ein Tisch für zwei. Manchmal möchte man die ganze Familie oder Freunde um sich haben. Bei uns ist Platz für Ihre gemeinsamen Momente – auch für den größten, Ihre Hochzeit.",
     "photoCaption": "Gedeckt für Ihr Beisammensein.",
+    "weddings": {
+      "title": "Hochzeiten",
+      "text": "Wir richten auch Hochzeiten aus. Das Hochzeitsessen mit ehrlicher Hausmannskost und festlich gedeckte Tische bereiten wir ganz nach Ihren Wünschen vor."
+    },
     "celebrations": {
       "title": "Familienfeiern",
       "text": "Ein festliches Mittagessen oder ein Treffen mit der ganzen Familie. An einem Tisch und bei gutem Essen."
@@ -230,7 +239,7 @@
       "text": "Ein gemütliches Treffen mit Freunden oder eine gemeinsame Veranstaltung. Ein Ort für gutes Essen und gute Gespräche."
     },
     "note": "Termin, Gästezahl und Ihre Wünsche besprechen wir gerne persönlich mit Ihnen.",
-    "call": "Eine Feier planen",
+    "call": "Hochzeit oder Feier planen",
     "stay": {
       "eyebrow": "BLEIBEN SIE NOCH EIN WENIG",
       "title": "Wie wäre es mit einer Übernachtung?",
